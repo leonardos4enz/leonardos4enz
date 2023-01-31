@@ -1,6 +1,8 @@
 <h1 align="center">Hola 👋, Soy Leo</h1>
 <h3 align="center">Amo la programación</h3>
-![example-gif](https://i.postimg.cc/jjdtW948/Dise-o-sin-t-tulo.gif)
+
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://twitter.com/leonardos4enz" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="leonardos4enz" height="30" width="40" /></a>
