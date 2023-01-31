@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://i.postimg.cc/jjdtW948/Dise-o-sin-t-tulo.gif" width="1050" height="300">
+<img src="https://i.postimg.cc/jjdtW948/Dise-o-sin-t-tulo.gif" width="640" height="360">
 </h1>
 
 <h3 align="left">Connect with me:</h3>
