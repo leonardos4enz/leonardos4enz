@@ -1,6 +1,6 @@
-<h1 align="center">
-<img src="https://im2.ezgif.com/tmp/ezgif-2-4b4401247d.gif" width="1278" height="466">
-</h1>
+<div align="center">
+<img src="https://i.postimg.cc/cHqRdV3z/ezgif-com-gif-maker-1.gif" width="700">
+</div>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
