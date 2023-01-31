@@ -1,7 +1,6 @@
-<h1 align="center">Hola 👋, Soy Leo</h1>
-<h3 align="center">Amo la programación</h3>
-
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+<h1 align="center">
+<img src="https://i.postimg.cc/jjdtW948/Dise-o-sin-t-tulo.gif" width="1050" height="300">
+</h1>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
