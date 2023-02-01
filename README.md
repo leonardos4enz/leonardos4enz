@@ -14,11 +14,13 @@
   <img src="https://em-content.zobj.net/thumbs/72/twitter/322/light-bulb_1f4a1.png" width="25"> Sobre mí</h3>
 <p align="left">Habilidad para hacer grandes cosas, con corazón y pasión, gestión de proyectos bien desarrollada y cualidades de liderazgo, siempre con un enfoque completo mientras trabajo. Con ganas de aprender y superarme cada día. 💪 </p>
 <p align="left">Me encanta programar y ayudar a la gente con mis proyectos. ⭐</p>
-<p>Áreas de experiencia:</p>
-<p align="left">• Servidores de Minecraft ⛏, en desarrollo y configuración ⚙ de decenas de plugins sobre jugabilidad, administración de permisos, construcción, seguridad, network, etc.<img src="https://openseauserdata.com/files/8e976123d4005649a085afa6abfeace4.gif" width="30"> </p>
+<ul><b>Áreas de experiencia:</b>
+<li><p align="left">Servidores de Minecraft ⛏, en desarrollo y configuración ⚙ de decenas de plugins sobre jugabilidad, administración de permisos, construcción, seguridad, network, etc.<img src="https://openseauserdata.com/files/8e976123d4005649a085afa6abfeace4.gif" width="30"> </p></li>
 
-<p align="left">• Desarrollo de <img src="https://media.tenor.com/IxhTuOE9M8sAAAAi/wumpus.gif" width="20"> Bots de Discord para grandes comunidades, dedicados a ayudar académicamente a estudiantes de la UANL.</p>
-<p align="left">• Desarrollo de aplicaciones móviles para el cuidado del medio ambiente, muestra de datos mediante APIs como Google Maps<img src="https://media0.giphy.com/media/QtvEouZBOE8nPn7yFx/giphy.gif?cid=6c09b952ef7d0d2b2aedd792335a728d52e7c1e11895cd3c&rid=giphy.gif&ct=s" width="25">y para el aprendizaje de flauta dulce mediante notas y sonidos guía.</p>
+<li><p align="left">Desarrollo de <img src="https://media.tenor.com/IxhTuOE9M8sAAAAi/wumpus.gif" width="20"> Bots de Discord para grandes comunidades, dedicados a ayudar académicamente a estudiantes de la UANL.</p></li>
+
+<li><p align="left">Desarrollo de aplicaciones móviles para el cuidado del medio ambiente, muestra de datos mediante APIs como Google Maps<img src="https://media0.giphy.com/media/QtvEouZBOE8nPn7yFx/giphy.gif?cid=6c09b952ef7d0d2b2aedd792335a728d52e7c1e11895cd3c&rid=giphy.gif&ct=s" width="25">y para el aprendizaje de flauta dulce mediante notas y sonidos guía.</p></li>
+</ul>
 
 <h3 align="center">
   <img src="https://em-content.zobj.net/thumbs/72/twitter/322/mobile-phone_1f4f1.png" width="25"> Redes Sociales</h3>
