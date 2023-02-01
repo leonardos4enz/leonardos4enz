@@ -18,4 +18,3 @@
 <h3 align="left">Donaciones</h3>
 <p><a href="https://www.buymeacoffee.com/leonardos4enz"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="leonardos4enz" /></a><a href="https://ko-fi.com/leonardos4enz"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="leonardos4enz" /></a></p><br><br>
 
-![Twitter Follow](https://img.shields.io/twitter/follow/leonardos4enz?logo=Twitter&style=social)
