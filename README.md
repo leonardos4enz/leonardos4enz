@@ -3,7 +3,7 @@
 </div>
 <br></br>
 
-![GitHub followers](https://img.shields.io/github/followers/leonardos4enz?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/leonardos4enz?style=social) ![GitHub Gist last commit](https://img.shields.io/github/gist/last-commit/6d29e5f59625afa9df354f1ee0fde0de) ![asdsa](https://img.shields.io/static/v1?label=Age&message=21&color=green) ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCM_3G2UskhjadFl3p5puE6w?style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/leonardos4enz?style=social) ![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/leonardos4enz?style=social)
+![GitHub followers](https://img.shields.io/github/followers/leonardos4enz?style=social) ![GitHub User's stars](https://img.shields.io/github/stars/leonardos4enz?style=social) ![GitHub Gist last commit](https://img.shields.io/github/gist/last-commit/6d29e5f59625afa9df354f1ee0fde0de) ![asdsa](https://img.shields.io/static/v1?label=Age&message=21&color=green) ![Twitter Follow](https://img.shields.io/twitter/follow/leonardos4enz?style=social) ![Reddit User Karma](https://img.shields.io/reddit/user-karma/combined/leonardos4enz?style=social)
 
 <div align="center" style="vertical-align: middle;">
 <img src="https://i.postimg.cc/yYqtv4hr/Sin-t-tulo-3.png" width="500">
