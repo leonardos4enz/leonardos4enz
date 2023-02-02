@@ -43,6 +43,8 @@
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=leonardos4enz)](https://git.io/streak-stats)
   
+<!--[![Spotify](https://vercel.com/leonardos4enz/spotify-now-playing/HmKW3kZqYQDtzBYspujFPV4f22u9)](https://open.spotify.com/user/31foqf3ajermezavq7i4hykttthi)-->
+  
 </div>
 <h3 align="center"><img src="https://em-content.zobj.net/thumbs/72/twitter/322/sparkling-heart_1f496.png" width="20"> Donaciones</h3>
 <p align="center"><a href="https://www.buymeacoffee.com/leonardos4enz"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="leonardos4enz" /></a><a href="https://ko-fi.com/leonardos4enz"> <img align="center" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="leonardos4enz" /></a></p>
