@@ -38,7 +38,9 @@
 [![Leonardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=leonardos4enz)](https://github.com/anuraghazra/github-readme-stats)
   <br>
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz)](https://github.com/anuraghazra/github-readme-stats)
-
+<br>
+  
+[![GitHub Streak](https://streak-stats.demolab.com/?user=leonardos4enz&theme=dark)](https://git.io/streak-stats)
   
 </div>
 <h3 align="center"><img src="https://em-content.zobj.net/thumbs/72/twitter/322/sparkling-heart_1f496.png" width="20"> Donaciones</h3>
