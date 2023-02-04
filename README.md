@@ -52,5 +52,5 @@
 
 
 <h3 align="center">
-  <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F886404576893337630.gif%3Fv%3D1&w=64&q=75" width="25"> ¡Recuerda seguirme en mis redes sociales!:) <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F886404576893337630.gif%3Fv%3D1&w=64&q=75" width="25">
+  <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F886404576893337630.gif%3Fv%3D1&w=64&q=75" width="25"> ¡Recuerda seguirme en mis redes sociales! :) <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F886404576893337630.gif%3Fv%3D1&w=64&q=75" width="25">
 </h3>
