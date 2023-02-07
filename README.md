@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.postimg.cc/cHqRdV3z/ezgif-com-gif-maker-1.gif" width="700">
+<img src="https://i.postimg.cc/cHqRdV3z/ezgif-com-gif-maker-1.gif" width="701">
 </div>
 <br></br>
 
