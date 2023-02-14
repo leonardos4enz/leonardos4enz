@@ -1,4 +1,6 @@
 <div align="center">
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FFFFFF&center=true&vCenter=true&width=435&lines=Mensaje+secreto+para+modo+oscuro;Holaaaaaaaaa)](https://git.io/typing-svg)
 <img src="https://i.postimg.cc/cHqRdV3z/ezgif-com-gif-maker-1.gif" width="702">
 </div>
 <br></br>
