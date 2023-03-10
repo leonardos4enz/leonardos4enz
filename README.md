@@ -24,7 +24,7 @@
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://discord.gg/QWTNtcu66S" alt="Únete" title="Servidor de Discord"><img width="32px" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801070788161616/discord.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://linkedin.com/in/leonardos4enz"><img width="32px" alt="LinkedIn" title="Giingu Dev.to" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png"></a>
+  <a href="https://linkedin.com/in/leonardos4enz"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png"></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a href="https://www.buymeacoffee.com/leonardos4enz"><img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/></a>
 </p>
