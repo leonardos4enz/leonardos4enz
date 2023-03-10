@@ -31,6 +31,8 @@
 
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
 
+
+
 ## ⚡ Tecnologías
 
 
@@ -76,6 +78,7 @@
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&langs_count=6&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
   <img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=leonardos4enz&theme=radical&border_radius=20&include_all_commits=true&count_private=true" alt="dmarsal90" />
   </p>
+  <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083881539558977556/image_1.png" width="15%" height="auto" /> <img src="https://www.planetminecraft.com/files/pixelart/divider/11.gif" width="15%" height="auto" />
  </div> 
  </p>
 
@@ -92,7 +95,7 @@
   <div align="center"> 
     
   [![trophy](https://github-profile-trophy.vercel.app/?username=leonardos4enz)](https://github.com/ryo-ma/github-profile-trophy)
-    
    </div>
+    
  </p>
 </details>
