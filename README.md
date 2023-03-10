@@ -4,14 +4,17 @@
 <br></br>
 
 <div align="center">
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 
 </div>  
 
 <div align="center">
   
 [![Leonardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats) [![GitHub Streak](https://streak-stats.demolab.com/?user=leonardos4enz&theme=radical)](https://git.io/streak-stats)
+  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
   
 </div>
 
