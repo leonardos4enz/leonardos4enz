@@ -7,9 +7,9 @@
   <a href="https://discord.gg/QWTNtcu66S">
     <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080529345946333194?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
   <a href="https://github.com/Giingu?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=stars&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/></a>
+    <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=Estrellas&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/></a>
   <a href="https://github.com/Giingu?tab=followers">
-    <img alt="followers" title="¡Sígueme en Github!" src="https://custom-icon-badges.herokuapp.com/github/followers/leonardos4enz?color=8E0E00&labelColor=8E0E00&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/></a>
+    <img alt="followers" title="¡Sígueme en Github!" src="https://custom-icon-badges.herokuapp.com/github/followers/leonardos4enz?color=8E0E00&labelColor=8E0E00&style=for-the-badge&logo=person-add&label=Sigueme&logoColor=white"/></a>
 </p>
   
 
