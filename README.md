@@ -5,7 +5,7 @@
 <p> 
   <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers"><img alt="All Repositories" title="Repositorios" src="https://custom-icon-badges.herokuapp.com/badge/-Repositorios-8E0E00?style=for-the-badge&logoColor=white&logo=repo"/></a>
   <a href="https://discord.gg/QWTNtcu66S">
-    <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080964341517533244?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
+    <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080529345946333194?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
   <a href="https://github.com/Giingu?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=stars&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/></a>
   <a href="https://github.com/Giingu?tab=followers">
@@ -29,9 +29,8 @@
   <a href="https://www.buymeacoffee.com/leonardos4enz"><img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/></a>
 </p>
 
-<br></br>
 
-<div style="display:flex; justify-content:center; padding:50px">
+<div align="center">
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg" />
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
@@ -51,7 +50,7 @@
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
 </div>
-
+<br><br>
 
 
 
@@ -68,11 +67,4 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
   
 </div>
-
-  
-<!--[![Spotify](https://vercel.com/leonardos4enz/spotify-now-playing/HmKW3kZqYQDtzBYspujFPV4f22u9)](https://open.spotify.com/user/31foqf3ajermezavq7i4hykttthi)-->
-  
-</div>
-<p align="center"><a href="https://www.buymeacoffee.com/leonardos4enz"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="leonardos4enz" /></a><a href="https://ko-fi.com/leonardos4enz"> <img align="center" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="leonardos4enz" /></a></p>
-<br>
 
