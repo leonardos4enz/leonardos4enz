@@ -66,9 +66,27 @@
 
 <div align="center">
   
+<details>
+ <summary align="left">📊 <b>Mis Stats</b></summary>
+ <br />
+  
 [![Leonardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats) [![GitHub Streak](https://streak-stats.demolab.com/?user=leonardos4enz&theme=radical)](https://git.io/streak-stats)
   
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
+
+ </p>
+</details>
+  
+<details>
+ <summary align="left">🏆 <b>Mis trofeos de Github</b></summary>
+ <br />
+ <p align="center">
+  
+  [![trophy](https://github-profile-trophy.vercel.app/?username=leonardos4enz)](https://github.com/ryo-ma/github-profile-trophy)
+   
+ </p>
+</details>
+
   
 </div>
 
