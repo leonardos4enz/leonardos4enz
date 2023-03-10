@@ -29,6 +29,10 @@
   <a href="https://www.buymeacoffee.com/leonardos4enz"><img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/></a>
 </p>
 
+<a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083847233843236958/Ys.png" width="100%" height="auto"/></a>
+
+## ⚡ Tecnologías
+
 
 <div align="center">
   <img width="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" />
