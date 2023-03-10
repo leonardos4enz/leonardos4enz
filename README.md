@@ -69,22 +69,30 @@
 <details>
  <summary align="left">📊 <b>Mis Stats</b></summary>
  <br />
-  
-[![Leonardo's GitHub stats](https://github-readme-stats.vercel.app/api?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats) [![GitHub Streak](https://streak-stats.demolab.com/?user=leonardos4enz&theme=radical)](https://git.io/streak-stats) [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
+<p align="left">
+<div align="center">  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&langs_count=6&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
+  <img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=leonardos4enz&theme=radical&border_radius=20&include_all_commits=true&count_private=true" alt="dmarsal90" />
+  </p>
+ </div> 
  </p>
+
+
+  
+</div>
+
 </details>
   
 <details>
  <summary align="left">🏆 <b>Mis trofeos de Github</b></summary>
  <br />
- <p align="center">
-  
+ <p>
+  <div align="center"> 
+    
   [![trophy](https://github-profile-trophy.vercel.app/?username=leonardos4enz)](https://github.com/ryo-ma/github-profile-trophy)
-   
+    
+   </div>
  </p>
 </details>
-
-  
-</div>
-
