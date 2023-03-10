@@ -1,13 +1,25 @@
 <div align="center">
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083679538363498526/readme_principal.png" width="100%" height="auto"/></a>
 </div>
+
+<p align="center">
+  <a href="https://www.youtube.com/channel/UCM_3G2UskhjadFl3p5puE6w"><img width="32px" alt="Youtube" title="YouTube" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801190732664872/youtube.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://twitter.com/leonardos4enz"><img width="32px" alt="Twitter" title="Twitter" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801163406778419/twitter.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://discord.gg/QWTNtcu66S" alt="Únete" title="Servidor de Discord"><img width="32px" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801070788161616/discord.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://linkedin.com/in/leonardos4enz"><img width="32px" alt="LinkedIn" title="Giingu Dev.to" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png"></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <a href="https://www.buymeacoffee.com/leonardos4enz"><img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/></a>
+</p>
+
 <br></br>
 
 <div align="center">
 
 [![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-
+  
 </div>  
 
 <div align="center">
