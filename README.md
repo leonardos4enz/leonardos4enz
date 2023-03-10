@@ -5,7 +5,7 @@
 <p> 
   <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers"><img alt="All Repositories" title="Repositorios" src="https://custom-icon-badges.herokuapp.com/badge/-Repositorios-8E0E00?style=for-the-badge&logoColor=white&logo=repo"/></a>
   <a href="https://discord.gg/QWTNtcu66S">
-    <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080529345946333194?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
+    <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080964341517533244?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
   <a href="https://github.com/Giingu?tab=repositories&sort=stargazers">
     <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=Estrellas&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/></a>
   <a href="https://github.com/Giingu?tab=followers">
