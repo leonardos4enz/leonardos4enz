@@ -62,7 +62,7 @@
 
 <div align="center">
 
-[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact&custom_title=Gráfica%20de%20mis%20contribuciones&title_color=8E0E00&line=8E0E00&point=550800)](https://github.com/ashutosh00710/github-readme-activity-graph)
   
 </div>  
 
