@@ -30,7 +30,7 @@
 </p>
 
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
-
+ 
 
 
 ## ⚡ Tecnologías
