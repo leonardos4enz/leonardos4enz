@@ -69,7 +69,7 @@
 <div align="center">
   
 <details>
- <summary align="left">📊 <b>Mis Stats</b></summary>
+ <summary align="left">📊 <b>Mis Stats</b></summary> 
  <br />
 
 <p align="left">
