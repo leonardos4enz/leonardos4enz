@@ -58,20 +58,9 @@
 </div>
 <br><br>
 
-
-
-<div align="center">
-
-[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact&custom_title=Gráfica%20de%20mis%20contribuciones&title_color=8E0E00&line=8E0E00&point=550800)](https://github.com/ashutosh00710/github-readme-activity-graph)
-  
-</div>  
-
-<div align="center">
-  
 <details>
  <summary align="left">📊 <b>Mis Stats</b></summary> 
  <br />
-
 <p align="left">
 <div align="center">  
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
@@ -81,14 +70,27 @@
   <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083881539558977556/image_1.png" width="15%" height="auto" /> <img src="https://www.planetminecraft.com/files/pixelart/divider/11.gif" width="15%" height="auto" />
  </div> 
  </p>
+</div>
+</details>
+
+<details>
+ <summary align="left">🚀 <b>Mis contribuciones</b></summary>
+ <br />
+ <p>
+  <div align="center">
+
+[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact&custom_title=Gráfica%20de%20mis%20contribuciones&title_color=8E0E00&line=8E0E00&point=550800)](https://github.com/ashutosh00710/github-readme-activity-graph)
+  
+</div> 
+    
+ </p>
+</details>
+
  
 
-
-
+<div align="center">
   
-</div>
 
-</details>
   
 <details>
  <summary align="left">🏆 <b>Mis trofeos de Github</b></summary>
