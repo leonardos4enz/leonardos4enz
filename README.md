@@ -12,7 +12,7 @@
     <img alt="followers" title="¡Sígueme en Github!" src="https://custom-icon-badges.herokuapp.com/github/followers/leonardos4enz?color=8E0E00&labelColor=8E0E00&style=for-the-badge&logo=person-add&label=Sigueme&logoColor=white"/></a>
 </p>
   
-
+<!-- ![](https://komarev.com/ghpvc/?username=leonardos4enze&style=flat-square) -->
   
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083679538363498526/readme_principal.png" width="100%" height="auto"/></a>
 </div>
