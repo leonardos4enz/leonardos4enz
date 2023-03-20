@@ -1,3 +1,4 @@
+name: Followers
 on:
   push:
     branches:
