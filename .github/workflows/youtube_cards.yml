@@ -13,7 +13,5 @@ jobs:
         with:
           channel_id: UCM_3G2UskhjadFl3p5puE6w
           comment_tag_name: YOUTUBE-CARDS
-          youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }}
-          show_duration: true
           commit_message: "docs(readme): Actualizar videos de YouTube"
 
