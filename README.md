@@ -124,3 +124,6 @@
  ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
   
   </div>
+
+<!--ACTION_START_FLAG:github-followers-->
+<!--ACTION_END_FLAG:github-followers-->
