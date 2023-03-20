@@ -73,9 +73,19 @@
 </div>
 </details>
 
+<details>
+ <summary align="left">📺 <b>Mis videos</b></summary>
+ <br />
+  
+ <p>
+  <div align="center"> 
+    
 <!-- BEGIN YOUTUBE-CARDS -->
 [![Tesla clone app | Flutter](https://ytcards.demolab.com/?id=y4stWxmebrs&title=Tesla+clone+app+%7C+Flutter&lang=en&timestamp=1679280520&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Tesla clone app | Flutter")](https://www.youtube.com/watch?v=y4stWxmebrs)
 <!-- END YOUTUBE-CARDS -->
+    
+ </p>
+</details>
 
 <details>
  <summary align="left">🚀 <b>Mis contribuciones</b></summary>
@@ -110,16 +120,7 @@
  </p>
 </details>
 
-<details>
- <summary align="left">📺 <b>Mis videos</b></summary>
- <br />
- <p>
-  <div align="center"> 
-    
 
-    
- </p>
-</details>
 
   <div align="center"> 
   
