@@ -12,7 +12,7 @@ jobs:
       - uses: DenverCoder1/github-readme-youtube-cards@main
         with:
           channel_id: UCM_3G2UskhjadFl3p5puE6w
-          lang: es
+          lang: en
           comment_tag_name: YOUTUBE-CARDS
           youtube_api_key: ${{ secrets.YOUTUBE_API_KEY }} # Configured in Actions Secrets (see Wiki)
           max_videos: 6
