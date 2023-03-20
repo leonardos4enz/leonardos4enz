@@ -137,4 +137,29 @@
 
 
 <!--START_SECTION:top-followers-->
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Antagonist-no-name">
+        <img src="https://avatars2.githubusercontent.com/u/57405231" width="100px;" alt="Antagonist-no-name"/>
+      </a>
+      <br />
+      <a href="https://github.com/Antagonist-no-name">Antagonist</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/sairammg">
+        <img src="https://avatars2.githubusercontent.com/u/113741709" width="100px;" alt="sairammg"/>
+      </a>
+      <br />
+      <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Kevin-v-v">
+        <img src="https://avatars2.githubusercontent.com/u/65782090" width="100px;" alt="Kevin-v-v"/>
+      </a>
+      <br />
+      <a href="https://github.com/Kevin-v-v">Kevin Villalobos</a>
+    </td>
+  </tr>
+</table>
 <!--END_SECTION:top-followers-->
