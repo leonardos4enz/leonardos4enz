@@ -105,7 +105,7 @@
 
  
 
-<div align="center">
+
   
 
   
@@ -121,21 +121,12 @@
  </p>
 </details>
 
-
-
-  <div align="center"> 
-  
- ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
-  
-  </div>
-
-<!--ACTION_START_FLAG:github-followers-->
-<table>
-  </tr>
-</table>
-<!--ACTION_END_FLAG:github-followers-->
-
-
+<details>
+ <summary align="left">✨ <b>Followers</b></summary>
+ <br />
+ <p>
+  <div align="center">
+    
 <!--START_SECTION:top-followers-->
 <table>
   <tr>
@@ -163,3 +154,19 @@
   </tr>
 </table>
 <!--END_SECTION:top-followers-->
+  
+  </div> 
+    
+ </p>
+</details>
+
+  <div align="center"> 
+  
+ ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
+  
+  </div>
+
+
+
+
+
