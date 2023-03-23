@@ -20,8 +20,8 @@
 <p align="center">
   <a target="_blank" href="https://www.youtube.com/channel/UCM_3G2UskhjadFl3p5puE6w"><img width="32px" alt="Youtube" title="YouTube" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801190732664872/youtube.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a target="_blank" href="https://twitter.com/leonardos4enz"><img width="32px" alt="Twitter" title="Twitter" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801163406778419/twitter.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
+  <!--<a target="_blank" href="https://twitter.com/leonardos4enz"><img width="32px" alt="Twitter" title="Twitter" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801163406778419/twitter.png"/></a>
+  &#8287;&#8287;&#8287;&#8287;&#8287; -->
   <a target="_blank" href="https://discord.gg/6y9mrdCTNJ" alt="Únete" title="Servidor de Discord"><img width="32px" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801070788161616/discord.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
   <a target="_blank" href="https://linkedin.com/in/leonardos4enz"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png"></a>
