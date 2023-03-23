@@ -33,7 +33,7 @@
  
 
 
-## ⚡ Tecnologías
+## <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1088339925910437938/thunder.gif" width="30"/> Tecnologías
 
 
 <div align="center">
