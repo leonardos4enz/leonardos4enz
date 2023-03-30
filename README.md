@@ -131,6 +131,13 @@
 <table>
   <tr>
     <td align="center">
+      <a href="https://github.com/hpenapp">
+        <img src="https://avatars2.githubusercontent.com/u/55427587" width="100px;" alt="hpenapp"/>
+      </a>
+      <br />
+      <a href="https://github.com/hpenapp">Humberto  Peña</a>
+    </td>
+    <td align="center">
       <a href="https://github.com/Antagonist-no-name">
         <img src="https://avatars2.githubusercontent.com/u/57405231" width="100px;" alt="Antagonist-no-name"/>
       </a>
