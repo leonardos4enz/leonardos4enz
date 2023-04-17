@@ -152,6 +152,13 @@
       <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
     </td>
     <td align="center">
+      <a href="https://github.com/Pelusa29">
+        <img src="https://avatars2.githubusercontent.com/u/19661303" width="100px;" alt="Pelusa29"/>
+      </a>
+      <br />
+      <a href="https://github.com/Pelusa29">Ernesto</a>
+    </td>
+    <td align="center">
       <a href="https://github.com/Kevin-v-v">
         <img src="https://avatars2.githubusercontent.com/u/65782090" width="100px;" alt="Kevin-v-v"/>
       </a>
