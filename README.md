@@ -6,32 +6,7 @@
 </div>-->
  <!--Coordenadas de Rio Preto - My Home-->
   
-```geojson
-{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "id": 1,
-      "properties": {
-        "ID": 0
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-              [-78,-11.9],
-              [-76.9,-11.9],
-              [-76.9,-11.9],
-              [-78,-11.9],
-              [-78,-11.9]
-          ]
-        ]
-      }
-    }
-  ]
-}
-   ```
+
 
 <div align="center">           
    
@@ -211,6 +186,33 @@
   
  ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
   
+ 
+ ```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [  -100.27840,25.65757,-99.30336,25.23968],
+              [ -100.36242,25.70630,-100.24055,25.65482],
+              [ -100.36242,25.70695,-100.24055,25.65483],
+              [ -100.36242,25.70696,-100.24055,25.65483]
+              
+          ]
+        ]
+      }
+    }
+  ]
+}
+   ```
   </div>
 
 
