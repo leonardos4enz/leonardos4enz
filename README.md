@@ -129,8 +129,8 @@
  <br />
  
  <div align="center">
-<br><p align="centre"><b>Visitantes 👽</b></p>  
-<p align="center"><img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" /></p> 
+<p align="center"><b>Visitantes 👽</b></p>  
+<img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" />
 </div>
  <p>
   <div align="center">
