@@ -1,4 +1,37 @@
 
+<!--<div align="center">
+<br><p align="centre"><b>Visitors Count 👽 </b></p>  
+<p align="center"><img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" /></p> 
+<br>
+</div>-->
+ <!--Coordenadas de Rio Preto - My Home-->
+  
+```geojson
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "ID": 0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+              [-78,-11.9],
+              [-76.9,-11.9],
+              [-76.9,-11.9],
+              [-78,-11.9],
+              [-78,-11.9]
+          ]
+        ]
+      }
+    }
+  ]
+}
+   ```
 
 <div align="center">           
    
