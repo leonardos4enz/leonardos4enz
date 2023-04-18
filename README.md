@@ -184,6 +184,8 @@
 </table>
 <!--END_SECTION:top-followers-->
   
+   <a href="https://info.flagcounter.com/Q0ao"><img src="https://s11.flagcounter.com/map/Q0ao/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="@leonardos4enz" border="0" width=50%></a>
+   
   </div> 
     
  </p>
@@ -192,9 +194,12 @@
 <details>
  <summary align="left">🗺️ <b>De donde soy</b></summary>
  <br />
+ 
  <p>
   <div align="center"> 
-    
+  
+   
+   
    ```geojson
 {
   "type": "FeatureCollection",
