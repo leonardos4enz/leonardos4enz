@@ -143,6 +143,13 @@
       <a href="https://github.com/6wki">Shawki</a>
     </td>
     <td align="center">
+      <a href="https://github.com/korizyx">
+        <img src="https://avatars2.githubusercontent.com/u/99187000" width="100px;" alt="korizyx"/>
+      </a>
+      <br />
+      <a href="https://github.com/korizyx">Kori</a>
+    </td>
+    <td align="center">
       <a href="https://github.com/hpenapp">
         <img src="https://avatars2.githubusercontent.com/u/55427587" width="100px;" alt="hpenapp"/>
       </a>
