@@ -187,10 +187,10 @@
   </tr>
 </table>
 <!--END_SECTION:top-followers-->
-  
+  <p align="center"><b>Visitantes 👽</b></p>
    <a href="https://info.flagcounter.com/Q0ao"><img src="https://s11.flagcounter.com/map/Q0ao/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="@leonardos4enz" border="0" width=50%></a>
    <div align="center">
-<p align="center"><b>Visitantes 👽</b></p>  
+  
 <img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" />
 </div>
   </div> 
