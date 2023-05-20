@@ -164,6 +164,13 @@
       <a href="https://github.com/Antagonist-no-name">Antagonist</a>
     </td>
     <td align="center">
+      <a href="https://github.com/andresmontes3">
+        <img src="https://avatars2.githubusercontent.com/u/75714042" width="100px;" alt="andresmontes3"/>
+      </a>
+      <br />
+      <a href="https://github.com/andresmontes3">Andrés Montes</a>
+    </td>
+    <td align="center">
       <a href="https://github.com/sairammg">
         <img src="https://avatars2.githubusercontent.com/u/113741709" width="100px;" alt="sairammg"/>
       </a>
@@ -177,6 +184,8 @@
       <br />
       <a href="https://github.com/Pelusa29">Ernesto</a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/Kevin-v-v">
         <img src="https://avatars2.githubusercontent.com/u/65782090" width="100px;" alt="Kevin-v-v"/>
