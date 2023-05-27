@@ -157,18 +157,18 @@
       <a href="https://github.com/hpenapp">Humberto  Peña</a>
     </td>
     <td align="center">
-      <a href="https://github.com/Antagonist-no-name">
-        <img src="https://avatars2.githubusercontent.com/u/57405231" width="100px;" alt="Antagonist-no-name"/>
-      </a>
-      <br />
-      <a href="https://github.com/Antagonist-no-name">Antagonist</a>
-    </td>
-    <td align="center">
       <a href="https://github.com/andresmontes3">
         <img src="https://avatars2.githubusercontent.com/u/75714042" width="100px;" alt="andresmontes3"/>
       </a>
       <br />
       <a href="https://github.com/andresmontes3">Andrés Montes</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Antagonist-no-name">
+        <img src="https://avatars2.githubusercontent.com/u/57405231" width="100px;" alt="Antagonist-no-name"/>
+      </a>
+      <br />
+      <a href="https://github.com/Antagonist-no-name">Antagonist</a>
     </td>
     <td align="center">
       <a href="https://github.com/sairammg">
