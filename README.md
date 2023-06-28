@@ -84,8 +84,8 @@
   <div align="center"> 
     
 <!-- BEGIN YOUTUBE-CARDS -->
-[![MineGPT](https://ytcards.demolab.com/?id=OW_-QhtC3i0&title=MineGPT&lang=en&timestamp=1679287825&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "MineGPT")](https://www.youtube.com/watch?v=OW_-QhtC3i0)
-[![Tesla clone app | Flutter](https://ytcards.demolab.com/?id=y4stWxmebrs&title=Tesla+clone+app+%7C+Flutter&lang=en&timestamp=1679280520&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250 "Tesla clone app | Flutter")](https://www.youtube.com/watch?v=y4stWxmebrs)
+[![MineGPT](https://ytcards.demolab.com/?id=OW_-QhtC3i0&title=MineGPT&lang=en&timestamp=1679287825&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&border_radius=5 "MineGPT")](https://www.youtube.com/watch?v=OW_-QhtC3i0)
+[![Tesla clone app | Flutter](https://ytcards.demolab.com/?id=y4stWxmebrs&title=Tesla+clone+app+%7C+Flutter&lang=en&timestamp=1679280520&background_color=%230d1117&title_color=%23ffffff&stats_color=%23dedede&width=250&border_radius=5 "Tesla clone app | Flutter")](https://www.youtube.com/watch?v=y4stWxmebrs)
 <!-- END YOUTUBE-CARDS -->
     
  </p>
