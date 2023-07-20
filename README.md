@@ -75,21 +75,21 @@
  </p>
 </div>
 </details>
-
+<!--
 <details>
  <summary align="left">📺 <b>Mis videos</b></summary>
  <br />
-  
- <p>
-  <div align="center"> 
+  <p>
+    <div align="center"> 
     
 <!-- BEGIN YOUTUBE-CARDS -->
 
 <!-- END YOUTUBE-CARDS -->
-    
- </p>
-</details>
 
+    </div>
+  </p>
+</details>
+-->
 <details>
  <summary align="left">🚀 <b>Mis contribuciones</b></summary>
  <br />
