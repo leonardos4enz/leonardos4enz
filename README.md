@@ -86,7 +86,7 @@
 
 <!-- END YOUTUBE-CARDS -->
 
-    </div>
+
 <!--  </p>
 </details>
 -->
