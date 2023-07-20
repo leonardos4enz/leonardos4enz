@@ -73,7 +73,7 @@
   <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083881539558977556/image_1.png" width="15%" height="auto" /> <img src="https://www.planetminecraft.com/files/pixelart/divider/11.gif" width="15%" height="auto" />
  </div> 
  </p>
-</div>
+
 </details>
 
 <!--<details>
