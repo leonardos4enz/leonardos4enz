@@ -34,7 +34,7 @@
 <!--
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
  -->
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138186255012745356/sistemasweb.png" width="100%" height="auto"/></a>
+<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138186771474157588/suistemasweb.png" width="100%" height="auto"/></a>
 
 
 ## <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1088339925910437938/thunder.gif" width="40"/> Tecnologías
