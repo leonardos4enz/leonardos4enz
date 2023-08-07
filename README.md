@@ -34,7 +34,7 @@
 <!--
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
  -->
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138187125284683806/sistemas_web.png" width="100%" height="auto"/></a>
+<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138213067482738820/websistem.png" width="100%" height="auto"/></a>
  <br> 
 
 <a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138189899216986254/apspss.png" width="100%" height="auto"/></a>
