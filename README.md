@@ -17,7 +17,7 @@
   
 <!-- ![](https://komarev.com/ghpvc/?username=leonardos4enze&style=flat-square) -->
   
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138173820394545253/nueva_foto.png" width="100%" height="auto"/></a>
+<a><img src="https://media.discordapp.net/attachments/1080976050034589776/1138173820394545253/nueva_foto.png" width="100%" height="auto"/></a>
 </div>
 
 <p align="center">
