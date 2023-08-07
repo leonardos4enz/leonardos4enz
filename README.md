@@ -34,7 +34,6 @@
 <!--
 <a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
  -->
-<iframe src="https://app.vectary.com/p/6vT8ce4jT5RPrc9iQbkMIn" frameborder="0" width="100%" height="480"></iframe>
 
 ## <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1088339925910437938/thunder.gif" width="40"/> Tecnologías
 
