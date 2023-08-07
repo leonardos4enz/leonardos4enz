@@ -40,6 +40,9 @@
 <a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138189899216986254/apspss.png" width="100%" height="auto"/></a>
  <br> 
 
+<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138225797535121438/edicion_de_contenido.png" width="100%" height="auto"/></a>
+ <br> 
+
 <details>
  <summary align="left">📊 <b>Mis Stats</b></summary> 
  <br />
