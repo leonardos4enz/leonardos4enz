@@ -67,16 +67,25 @@
 </div>
 
 <!-- [StackOverflow Stats] -->
+<details>
+  <summary align="left">
+    <img src="https://emoji.discadia.com/emojis/831e6362-2712-4d14-b83b-ce719adeaef5.PNG" width="15px"><b> StackOverflow Stats</b>
+  </summary> 
+  <br/>
+  <div align="center">  
+    [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
+  </div>
+</details>
 <div align="center">  
 
-  [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
+  
 
 </div>
 
 <!-- [Stats] -->
 <details>
   <summary align="left">
-    📊<b> Mis Stats</b>
+    <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F1095708048506503279.gif%3Fv%3D1&w=64&q=75" width="20px"><b> Mis Stats</b>
   </summary> 
   <br/>
   <p align="left">
@@ -91,7 +100,7 @@
 <!-- [Contribuciones] -->
 <details>
   <summary align="left">
-    🚀 <b>Mis contribuciones</b>
+    <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F948076505660018728.gif%3Fv%3D1&w=64&q=75" width="20px"> <b>Mis contribuciones</b>
   </summary>
   <br/>
   <p>
@@ -104,7 +113,7 @@
 <!-- [Trofeos] -->
 <details>
   <summary align="left">
-    🏆 <b>Mis trofeos de Github</b>
+    <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F985735061200580609.gif%3Fv%3D1&w=64&q=75" width="20px"> <b>Mis trofeos de Github</b>
   </summary>
   <br/>
   <p>
@@ -117,7 +126,7 @@
 
 <details>
   <summary align="left">
-    ✨ <b>Followers</b>
+    <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F954826406720856084.gif%3Fv%3D1&w=64&q=75" width="20px"> <b>Followers</b>
   </summary>
   <br />
   <p>
@@ -212,7 +221,7 @@
 <!-- [¿De dónde soy?] -->
 <details>
   <summary align="left">
-    🗺️ <b>De donde soy</b>
+    <img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F808336213073199155.gif%3Fv%3D1&w=64&q=75" width="20px"> <b>De donde soy</b>
   </summary>
   <br />
   <p>
