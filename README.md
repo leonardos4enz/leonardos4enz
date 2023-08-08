@@ -61,7 +61,7 @@
   <br>
   <!-- [Edición de contenido] -->
   <a>
-    <img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138225797535121438/edicion_de_contenido.png" width="100%" height="auto"/>
+    <img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138386848671084604/cursor.png" width="100%" height="auto"/>
   </a>
   <br>
 </div>
