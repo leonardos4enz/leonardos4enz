@@ -68,8 +68,7 @@
   <br>
 </div>
 
-<hr><br><br>
-
+<!-- [StackOverflow Stats] -->
 <div align="center">  
 
   [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
