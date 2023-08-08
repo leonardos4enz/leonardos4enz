@@ -72,8 +72,10 @@
     <img src="https://emoji.discadia.com/emojis/831e6362-2712-4d14-b83b-ce719adeaef5.PNG" width="15px"><b> StackOverflow Stats</b>
   </summary> 
   <br/>
-  <div align="center">  
-    [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
+  <div align="center">
+    
+  [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
+  
   </div>
 </details>
 <div align="center">  
