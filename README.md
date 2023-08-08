@@ -1,90 +1,96 @@
 
-
-  
-
-
+<!-- [Botones] -->
 <div align="center">           
-   
-<p>    
-  <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers"><img alt="All Repositories" title="Mis repositorios" src="https://custom-icon-badges.herokuapp.com/badge/-Repositorios-8E0E00?style=for-the-badge&logoColor=white&logo=repo"/></a>
-  <a href="https://discord.gg/6y9mrdCTNJ">
-    <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080964341517533244?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/></a>
-  <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers">
-    <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=Estrellas&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/></a>
-  <a href="https://github.com/leonardos4enz?tab=followers">
-    <img alt="followers" title="¡Sígueme en Github!" src="https://custom-icon-badges.herokuapp.com/github/followers/leonardos4enz?color=8E0E00&labelColor=8E0E00&style=for-the-badge&logo=person-add&label=Sigueme&logoColor=white"/></a>
-</p>
-  
-<!-- ![](https://komarev.com/ghpvc/?username=leonardos4enze&style=flat-square) -->
-  
-<a><img src="https://media.discordapp.net/attachments/1080976050034589776/1138173820394545253/nueva_foto.png" width="100%" height="auto"/></a>
+  <p>
+    <!-- [Repositorios] -->
+    <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers">
+      <img alt="All Repositories" title="Mis repositorios" src="https://custom-icon-badges.herokuapp.com/badge/-Repositorios-8E0E00?style=for-the-badge&logoColor=white&logo=repo"/>
+    </a>
+    <!-- [Chat Discord] -->
+    <a href="https://discord.gg/6y9mrdCTNJ">
+      <img alt="discord community" title="Únete a la comunidad" src="https://custom-icon-badges.herokuapp.com/discord/1080964341517533244?color=8E0E00&logo=comments&logoColor=white&style=for-the-badge&labelColor=8E0E00"/>
+    </a>
+    <!-- [Estrellas Totales en Repositorios] -->
+    <a href="https://github.com/leonardos4enz?tab=repositories&sort=stargazers">
+      <img alt="total stars" title="Estrellas" src="https://custom-icon-badges.herokuapp.com/badge/dynamic/json?logo=star&host=formatted-dynamic-badges.herokuapp.com&formatter=metric&style=for-the-badge&color=8E0E00&labelColor=8E0E00&label=Estrellas&query=%24.stars&url=https%3A%2F%2Fapi.github-star-counter.workers.dev%2Fuser%2Fleonardos4enz"/>
+    </a>
+    <!-- [Followers] -->
+    <a href="https://github.com/leonardos4enz?tab=followers">
+      <img alt="followers" title="¡Sígueme en Github!" src="https://custom-icon-badges.herokuapp.com/github/followers/leonardos4enz?color=8E0E00&labelColor=8E0E00&style=for-the-badge&logo=person-add&label=Sigueme&logoColor=white"/>
+    </a>
+  </p>
 </div>
 
+<!-- [Imagen Principal] -->
+<div align="center"> 
+  <a>
+    <img src="https://media.discordapp.net/attachments/1080976050034589776/1138173820394545253/nueva_foto.png" width="100%" height="auto"/>
+  </a>
+</div>
+
+<!-- [Botones de Redes Sociales] -->
 <p align="center">
-  <!--<a target="_blank" href="https://www.youtube.com/channel/UCM_3G2UskhjadFl3p5puE6w"><img width="32px" alt="Youtube" title="YouTube" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801190732664872/youtube.png"/></a>
+  <!-- [Discord] -->
+  <a target="_blank" href="https://discord.gg/6y9mrdCTNJ" alt="Únete" title="Servidor de Discord">
+    <img width="32px" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801070788161616/discord.png"/>
+  </a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a target="_blank" href="https://twitter.com/leonardos4enz"><img width="32px" alt="Twitter" title="Twitter" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801163406778419/twitter.png"/></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287; -->
-  <a target="_blank" href="https://discord.gg/6y9mrdCTNJ" alt="Únete" title="Servidor de Discord"><img width="32px" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801070788161616/discord.png"/></a>
+  <!-- [Linkedin] -->
+  <a target="_blank" href="https://linkedin.com/in/leonardos4enz">
+    <img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png">
+  </a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a target="_blank" href="https://linkedin.com/in/leonardos4enz"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png"></a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a target="_blank" href="https://www.buymeacoffee.com/leonardos4enz"><img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/></a>
+  <!-- [Buyme a coffee] -->
+  <a target="_blank" href="https://www.buymeacoffee.com/leonardos4enz">
+    <img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/>
+  </a>
 </p>
-<!--
-<a><img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083848286181539850/InfoGitHub.png" width="100%" height="auto"/></a>
- -->
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138213067482738820/websistem.png" width="100%" height="auto"/></a>
- <br> 
 
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138189899216986254/apspss.png" width="100%" height="auto"/></a>
- <br> 
+<!-- [Presentación de habilidades personales] -->
+<div align="center"> 
+  <!-- [Sistemas Web] -->
+  <a>
+    <img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138213067482738820/websistem.png" width="100%" height="auto"/>
+  </a>
+  <br>
+  <!-- [Apps] -->
+  <a>
+    <img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138189899216986254/apspss.png" width="100%" height="auto"/>
+  </a>
+  <br>
+  <!-- [Edición de contenido] -->
+  <a>
+    <img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138225797535121438/edicion_de_contenido.png" width="100%" height="auto"/>
+  </a>
+  <br>
+</div>
 
-<a><img src="https://cdn.discordapp.com/attachments/1080976050034589776/1138225797535121438/edicion_de_contenido.png" width="100%" height="auto"/></a>
- <br> 
-
+<!-- [Stats] -->
 <details>
- <summary align="left">📊 <b>Mis Stats</b></summary> 
- <br />
-<p align="left">
-<div align="center">  
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&langs_count=6&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
-  <img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=leonardos4enz&theme=radical&border_radius=20&include_all_commits=true&count_private=true" />
+  <summary align="left">
+    📊<b>Mis Stats</b>
+  </summary> 
+  <br/>
+  <p align="left">
+    <div align="center">  
+      <img height="180em" src="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
+      <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&langs_count=6&theme=radical&border_radius=20&include_all_commits=true&count_private=true"/>
+      <img align="center" height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=leonardos4enz&theme=radical&border_radius=20&include_all_commits=true&count_private=true" />
+    </div>
   </p>
-  <img src="https://cdn.discordapp.com/attachments/1080922815127109632/1083881539558977556/image_1.png" width="15%" height="auto" /> <img src="https://www.planetminecraft.com/files/pixelart/divider/11.gif" width="15%" height="auto" />
- </div> 
- </p>
-
 </details>
 
-<!--<details>
- <summary align="left">📺 <b>Mis videos</b></summary>
- <br />
-  <p>
-    <div align="center"> 
-    
-<!-- BEGIN YOUTUBE-CARDS -->
-
-<!-- END YOUTUBE-CARDS -->
-
-
-<!--  </p>
-</details>
--->
+<!-- [Contribuciones] -->
 <details>
- <summary align="left">🚀 <b>Mis contribuciones</b></summary>
- <br />
- <p>
-  <div align="center">
-    
-[![Gráfica de Leo](https://github-readme-activity-graph.cyclic.app/graph?username=leonardos4enz&theme=github-compact&custom_title=Gráfica%20de%20mis%20contribuciones&title_color=8E0E00&line=8E0E00&point=550800)](https://github.com/leonardos4enz?tab=repositories)
-    
-<img src="./profile-3d-contrib/profile-night-green.svg" width="100%" style="border-radius: 10px;">
-  
-  </div> 
-    
- </p>
+  <summary align="left">
+    🚀 <b>Mis contribuciones</b>
+  </summary>
+  <br/>
+  <p>
+    <div align="center">
+      <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" style="border-radius: 10px;">
+    </div> 
+  </p>
 </details>
 
  
