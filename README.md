@@ -93,32 +93,27 @@
   </p>
 </details>
 
- 
-
-
-  
-
-  
+<!-- [Trofeos] -->
 <details>
- <summary align="left">🏆 <b>Mis trofeos de Github</b></summary>
- <br />
- <p>
-  <div align="center"> 
+  <summary align="left">
+    🏆 <b>Mis trofeos de Github</b>
+  </summary>
+  <br/>
+  <p>
+    <div align="center"> 
     
   [![trophy](https://github-profile-trophy.vercel.app/?username=leonardos4enz)](https://github.com/ryo-ma/github-profile-trophy)
-   </div>
-    
- </p>
+    </div> 
+  </p>
 </details>
 
 <details>
- <summary align="left">✨ <b>Followers</b></summary>
- <br />
- 
- 
- <p>
+  <summary align="left">
+    ✨ <b>Followers</b>
+  </summary>
+  <br />
+  <p>
   <div align="center">
-    
 <!--START_SECTION:top-followers-->
 <table>
   <tr>
@@ -197,25 +192,23 @@
   </tr>
 </table>
 <!--END_SECTION:top-followers-->
-  <p align="center"><b>Visitantes 👽</b></p>
-  <!-- <a href="https://info.flagcounter.com/Q0ao"><img src="https://s11.flagcounter.com/map/Q0ao/size_s/txt_000000/border_CCCCCC/pageviews_0/viewers_0/flags_0/" alt="@leonardos4enz" border="0" width=50%></a>
-   <div align="center">-->
-  
-<img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" />
+  <p align="center">
+    <b>Visitantes 👽</b>
+  </p>
+  <img align="center" src="https://profile-counter.glitch.me/{leonardos4enz}/count.svg" />
 </div>
-  </div> 
     
  </p>
 </details>
 
+<!-- [¿De dónde soy?] -->
 <details>
- <summary align="left">🗺️ <b>De donde soy</b></summary>
- <br />
- 
- <p>
+  <summary align="left">
+    🗺️ <b>De donde soy</b>
+  </summary>
+  <br />
+  <p>
   <div align="center"> 
-  
-   
    
    ```geojson
 {
@@ -244,16 +237,16 @@
 }
    ```
     
- </p>
+  </div>
 </details>
 
-  <div align="center"> 
-  
- ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
-  
- 
 
-  </div>
+<!-- [Snake (Animación)] -->
+<div align="center"> 
+  
+  ![Snake animation](https://github.com/leonardos4enz/leonardos4enz/blob/output/github-contribution-grid-snake.svg)
+  
+</div>
 
 
 
