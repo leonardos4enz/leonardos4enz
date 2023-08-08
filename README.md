@@ -66,6 +66,8 @@
   <br>
 </div>
 
+<hr><br><br>
+
 <!-- [Stats] -->
 <details>
   <summary align="left">
