@@ -21,6 +21,8 @@
   </p>
 </div>
 
+
+
 <!-- [Imagen Principal] -->
 <div align="center"> 
   <a>
@@ -71,7 +73,7 @@
 <!-- [Stats] -->
 <details>
   <summary align="left">
-    📊<b>Mis Stats</b>
+    📊<b> Mis Stats</b>
   </summary> 
   <br/>
   <p align="left">
@@ -243,7 +245,11 @@
   </div>
 </details>
 
+<div align="center">  
 
+  [![Leonardo Saenz StackOverflow](https://github-readme-stackoverflow.vercel.app/?userID=21209495&theme=dark)](https://stackoverflow.com/users/21209495/leonardo-sáenz)
+
+</div>
 <!-- [Snake (Animación)]
 <div align="center"> 
   
