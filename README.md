@@ -151,6 +151,13 @@
       <a href="https://github.com/6wki">Shawki</a>
     </td>
     <td align="center">
+      <a href="https://github.com/jlianacastillo">
+        <img src="https://avatars2.githubusercontent.com/u/96964513" width="100px;" alt="jlianacastillo"/>
+      </a>
+      <br />
+      <a href="https://github.com/jlianacastillo">Juliana Castillo </a>
+    </td>
+    <td align="center">
       <a href="https://github.com/hpenapp">
         <img src="https://avatars2.githubusercontent.com/u/55427587" width="100px;" alt="hpenapp"/>
       </a>
@@ -178,6 +185,8 @@
       <br />
       <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://github.com/bosieett">
         <img src="https://avatars2.githubusercontent.com/u/124293070" width="100px;" alt="bosieett"/>
@@ -185,8 +194,6 @@
       <br />
       <a href="https://github.com/bosieett">Kevin Sánchez</a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/Pelusa29">
         <img src="https://avatars2.githubusercontent.com/u/19661303" width="100px;" alt="Pelusa29"/>
