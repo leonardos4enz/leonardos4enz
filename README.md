@@ -179,20 +179,20 @@
       <a href="https://github.com/andresmontes3">Andrés Montes</a>
     </td>
     <td align="center">
-      <a href="https://github.com/sairammg">
-        <img src="https://avatars2.githubusercontent.com/u/113741709" width="100px;" alt="sairammg"/>
-      </a>
-      <br />
-      <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
       <a href="https://github.com/bosieett">
         <img src="https://avatars2.githubusercontent.com/u/124293070" width="100px;" alt="bosieett"/>
       </a>
       <br />
       <a href="https://github.com/bosieett">Kevin Sánchez</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/sairammg">
+        <img src="https://avatars2.githubusercontent.com/u/113741709" width="100px;" alt="sairammg"/>
+      </a>
+      <br />
+      <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
     </td>
     <td align="center">
       <a href="https://github.com/Pelusa29">
