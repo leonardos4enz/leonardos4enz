@@ -209,6 +209,13 @@
       <a href="https://github.com/IngenieroTony">IngenieroTony</a>
     </td>
     <td align="center">
+      <a href="https://github.com/GermanxD">
+        <img src="https://avatars2.githubusercontent.com/u/52357914" width="100px;" alt="GermanxD"/>
+      </a>
+      <br />
+      <a href="https://github.com/GermanxD">German Bustos Moreno</a>
+    </td>
+    <td align="center">
       <a href="https://github.com/EnriqueSVzz">
         <img src="https://avatars2.githubusercontent.com/u/79182739" width="100px;" alt="EnriqueSVzz"/>
       </a>
