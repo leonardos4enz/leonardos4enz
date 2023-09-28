@@ -179,14 +179,21 @@
       <a href="https://github.com/bosieett">Kevin Sánchez</a>
     </td>
     <td align="center">
+      <a href="https://github.com/GermanxD">
+        <img src="https://avatars2.githubusercontent.com/u/52357914" width="100px;" alt="GermanxD"/>
+      </a>
+      <br />
+      <a href="https://github.com/GermanxD">German Bustos Moreno</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
       <a href="https://github.com/sairammg">
         <img src="https://avatars2.githubusercontent.com/u/113741709" width="100px;" alt="sairammg"/>
       </a>
       <br />
       <a href="https://github.com/sairammg">Sairam Martínez Granados</a>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/Pelusa29">
         <img src="https://avatars2.githubusercontent.com/u/19661303" width="100px;" alt="Pelusa29"/>
@@ -207,13 +214,6 @@
       </a>
       <br />
       <a href="https://github.com/IngenieroTony">IngenieroTony</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/GermanxD">
-        <img src="https://avatars2.githubusercontent.com/u/52357914" width="100px;" alt="GermanxD"/>
-      </a>
-      <br />
-      <a href="https://github.com/GermanxD">German Bustos Moreno</a>
     </td>
     <td align="center">
       <a href="https://github.com/EnriqueSVzz">
