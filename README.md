@@ -40,11 +40,6 @@
   <a target="_blank" href="https://linkedin.com/in/leonardos4enz">
     <img width="32px" alt="LinkedIn" title="LinkedIn" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801110168473640/linkedin.png">
   </a>
-  &#8287;&#8287;&#8287;&#8287;&#8287;
-  <!-- [Buyme a coffee] -->
-  <a target="_blank" href="https://www.buymeacoffee.com/leonardos4enz">
-    <img width="32px" alt="Ko-fi" title="Buy me a coffee" src="https://cdn.discordapp.com/attachments/1080922815127109632/1083801054145151037/coffee.png"/>
-  </a>
 </p>
 
 <!-- [Presentación de habilidades personales] -->
