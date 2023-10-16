@@ -1,5 +1,5 @@
 
-<!-- [Botones Geniales]        -->
+<!-- [Botones Geniales]         -->
 <div align="center">           
   <p>
     <!-- [Repositorios] -->
