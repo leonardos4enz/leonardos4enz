@@ -1,5 +1,5 @@
 
-<!-- [Botones Geniales]          c njhkh   -->
+<!-- [Botones Geniales]           c njhkh   -->
 <div align="center">           
   <p>
     <!-- [Repositorios] -->
