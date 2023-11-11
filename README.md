@@ -217,6 +217,13 @@
       <br />
       <a href="https://github.com/EnriqueSVzz">Enrique S.Vázquez</a>
     </td>
+    <td align="center">
+      <a href="https://github.com/CesarDG10">
+        <img src="https://avatars2.githubusercontent.com/u/150478831" width="100px;" alt="CesarDG10"/>
+      </a>
+      <br />
+      <a href="https://github.com/CesarDG10">CesarDG10</a>
+    </td>
   </tr>
 </table>
 <!--END_SECTION:top-followers-->
