@@ -32,6 +32,28 @@
 
 <br>
 
+## `$ ls ~/hackathons`
+
+<div align="center">
+<img src="assets/hackathons.svg" alt="Hackathon photos slideshow — NASA Space Apps 2025 & Datathon DSC 2026" width="880">
+</div>
+
+- 🏆 **NASA International Space Apps Challenge 2025** — MLH prize: *Best Use of ElevenLabs*, with **A.E.R.I.S.** (AI + ML + NASA TEMPO satellite data)
+- 🔟 **Datathon DSC 2026 (HeyBanco)** — Top 10 of 60+ teams with **HeyTwin**, team *Specters*
+
+<br>
+
+## `$ cat ~/stack`
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" alt="Tech stack: .NET, C#, Next.js, React, TypeScript, Python, FastAPI, n8n, LangChain, OpenAI, Claude, Gemini, Ollama, ElevenLabs, scikit-learn, SQL Server, PostgreSQL, MySQL, AWS, Docker, Git, Azure DevOps" width="880">
+</picture>
+</div>
+
+<br>
+
 ## `$ ls ~/featured-builds`
 
 | Project | What it does | Stack |
@@ -82,28 +104,6 @@ My portfolio is a product in itself: a neo-brutalist site with an **AI mode** �
 <img src="https://leonardosaenz.com.mx/api/github/status.svg" alt="Live status of leonardosaenz.com.mx — served by the site itself" width="430">
 
 <sub>⚡ This badge is generated live by my own site — an ASP.NET endpoint serving animated SVG with real uptime</sub>
-</div>
-
-<br>
-
-## `$ ls ~/hackathons`
-
-<div align="center">
-<img src="assets/hackathons.svg" alt="Hackathon photos slideshow — NASA Space Apps 2025 & Datathon DSC 2026" width="880">
-</div>
-
-- 🏆 **NASA International Space Apps Challenge 2025** — MLH prize: *Best Use of ElevenLabs*, with **A.E.R.I.S.** (AI + ML + NASA TEMPO satellite data)
-- 🔟 **Datathon DSC 2026 (HeyBanco)** — Top 10 of 60+ teams with **HeyTwin**, team *Specters*
-
-<br>
-
-## `$ cat ~/stack`
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: .NET, C#, Next.js, React, TypeScript, Python, FastAPI, n8n, LangChain, OpenAI, Claude, Gemini, Ollama, ElevenLabs, scikit-learn, SQL Server, PostgreSQL, MySQL, AWS, Docker, Git, Azure DevOps" width="880">
-</picture>
 </div>
 
 <br>
