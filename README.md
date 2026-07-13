@@ -40,24 +40,69 @@
 | **A.E.R.I.S.** | AI agent predicting air quality in real time from NASA TEMPO satellite data, with voice alerts for at-risk people. **🏆 MLH: Best Use of ElevenLabs**, NASA Space Apps 2025. | `Python` `AWS Lambda` `DynamoDB` `ML` `ElevenLabs` |
 | **[XSLAYCC ERP](https://www.xcf.com.mx/xslaycc)** | Full ERP: purchasing, inventory & fleet management. 3-tier architecture (WEB / API / CLASSES) with AES-encrypted transport. Led the dev team with SCRUM. | `.NET 8` `C#` `SQL Server` `Azure DevOps` `IIS` |
 
+<div align="center">
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://www.xcf.com.mx/"><img src="assets/img/xcf2026.jpg" alt="XCF 2026 — agentic corporate site" width="100%"></a>
+      <sub><b>XCF 2026</b> — agentic assistant operating the UI</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://github.com/leonardos4enz/Datathon-2026-Specters"><img src="assets/img/heytwin.jpg" alt="HeyTwin — digital twin banking agent" width="100%"></a>
+      <sub><b>HeyTwin</b> — generative UI over 15k customer profiles</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="assets/img/aeris.jpg" alt="A.E.R.I.S. — air quality AI agent" width="100%">
+      <sub><b>A.E.R.I.S.</b> — air-quality prediction from NASA TEMPO</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://www.xcf.com.mx/xslaycc"><img src="assets/img/xslaycc.jpg" alt="XSLAYCC ERP" width="100%"></a>
+      <sub><b>XSLAYCC</b> — ERP running XCF's daily operations</sub>
+    </td>
+  </tr>
+</table>
+</div>
+
+<br>
+
+## `$ open leonardosaenz.com.mx`
+
+My portfolio is a product in itself: a neo-brutalist site with an **AI mode** — an agentic assistant (n8n + RAG on pgvector) that answers questions about me, navigates the site for you, and can even email me from the chat.
+
+<div align="center">
+<a href="https://leonardosaenz.com.mx/portafolio"><img src="assets/img/site-portafolio.jpg" alt="leonardosaenz.com.mx — portfolio" width="880"></a>
+
+<sub>👆 Click to visit — or try the <a href="https://leonardosaenz.com.mx/">AI mode</a> and talk to my digital twin</sub>
+
+<br><br>
+
+<img src="https://leonardosaenz.com.mx/api/github/status.svg" alt="Live status of leonardosaenz.com.mx — served by the site itself" width="430">
+
+<sub>⚡ This badge is generated live by my own site — an ASP.NET endpoint serving animated SVG with real uptime</sub>
+</div>
+
+<br>
+
+## `$ ls ~/hackathons`
+
+<div align="center">
+<img src="assets/hackathons.svg" alt="Hackathon photos slideshow — NASA Space Apps 2025 & Datathon DSC 2026" width="880">
+</div>
+
+- 🏆 **NASA International Space Apps Challenge 2025** — MLH prize: *Best Use of ElevenLabs*, with **A.E.R.I.S.** (AI + ML + NASA TEMPO satellite data)
+- 🔟 **Datathon DSC 2026 (HeyBanco)** — Top 10 of 60+ teams with **HeyTwin**, team *Specters*
+
 <br>
 
 ## `$ cat ~/stack`
 
 <div align="center">
-
-**Languages & Frameworks**
-
-<img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=dotnet&logoColor=white" alt="C#"> <img src="https://img.shields.io/badge/.NET_Core-000000?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"> <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"> <img src="https://img.shields.io/badge/React-000000?style=for-the-badge&logo=react&logoColor=white" alt="React"> <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"> <img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/FastAPI-000000?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
-
-**AI & Agents**
-
-<img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n"> <img src="https://img.shields.io/badge/LangChain-000000?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain"> <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI"> <img src="https://img.shields.io/badge/Claude-000000?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"> <img src="https://img.shields.io/badge/Gemini-000000?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini"> <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" alt="Ollama"> <img src="https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logo=elevenlabs&logoColor=white" alt="ElevenLabs"> <img src="https://img.shields.io/badge/scikit--learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn">
-
-**Data & Cloud**
-
-<img src="https://img.shields.io/badge/SQL_Server-000000?style=for-the-badge" alt="SQL Server"> <img src="https://img.shields.io/badge/PostgreSQL_+_pgvector-000000?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"> <img src="https://img.shields.io/badge/MySQL-000000?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"> <img src="https://img.shields.io/badge/AWS-000000?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"> <img src="https://img.shields.io/badge/Lambda-000000?style=for-the-badge&logo=awslambda&logoColor=white" alt="AWS Lambda"> <img src="https://img.shields.io/badge/Azure_DevOps-000000?style=for-the-badge" alt="Azure DevOps"> <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img src="assets/stack-light.svg" alt="Tech stack: .NET, C#, Next.js, React, TypeScript, Python, FastAPI, n8n, LangChain, OpenAI, Claude, Gemini, Ollama, ElevenLabs, scikit-learn, SQL Server, PostgreSQL, MySQL, AWS, Docker, Git, Azure DevOps" width="880">
+</picture>
 </div>
 
 <br>
