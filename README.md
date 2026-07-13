@@ -12,6 +12,7 @@
 
 <br>
 
+<a href="https://leonardosaenz.com.mx/portafolio"><img src="https://img.shields.io/badge/Portfolio_Web-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio Web"></a>
 <a href="https://www.linkedin.com/in/leonardos4enz/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:leonardorsaenz@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <img src="https://komarev.com/ghpvc/?username=leonardos4enz&style=for-the-badge&color=000000&label=PROFILE+VIEWS" alt="profile views">
