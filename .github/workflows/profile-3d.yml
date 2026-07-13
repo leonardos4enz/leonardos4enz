@@ -1,7 +1,7 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
+  schedule: # 18:00 UTC daily
     - cron: "0 18 * * *"
   workflow_dispatch:
 
@@ -9,8 +9,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -20,5 +22,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A .
-          git commit -m "generated"
+          git commit -m "chore: regenerate 3d contribution graph" || echo "no changes"
           git push
