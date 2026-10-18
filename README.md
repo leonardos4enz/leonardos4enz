@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Leonardo Sáenz — Full Stack Developer · AI Project Lead" width="880">
+  <img src="assets/hero-light.svg" alt="Leonardo Sáenz — Full Stack Developer · AI Engineer" width="880">
 </picture>
 
 <picture>
@@ -23,12 +23,13 @@
 
 ## `$ whoami`
 
-**Full Stack Developer & AI Project Lead** — Computer Science graduate (UANL FCFM). I lead dev teams and build systems end-to-end: corporate web platforms, a full ERP, and AI agents that don't just chat — they **operate the UI, query databases with guardrails, and run in production**.
+**Full Stack Developer & AI Engineer** — Computer Science graduate (UANL FCFM). I build software and AI agents that reach production: corporate web platforms, a full ERP, and agents that don't just chat — they **operate the UI, call real tools, and stream their work live**.
 
-- 🤖 **Currently:** AI Lead @ XCF — agentic assistants with n8n, RAG pipelines with pgvector, voice agents with ElevenLabs/RetellAI
-- 🧠 **Obsessed with:** agents that take real actions — tool-calling, generative UI, autonomous ML pipelines
+- 🟢 **Now:** available for new opportunities — full stack, AI agents, or both
+- 🤖 **Previously:** AI Lead @ XCF (Jan 2025 – Sep 2026) — agentic assistants with n8n, RAG with pgvector, voice agents with ElevenLabs/RetellAI. Before that, project lead for XCF's ERP and legacy-system migration (since Apr 2023)
+- 🧠 **Obsessed with:** agents that take real actions — tool-calling, generative UI, computer-use style navigation
 - 🏆 **MLH prize winner** at NASA International Space Apps Challenge 2025
-- 📍 Monterrey, Nuevo León, México · Open to interesting projects
+- 📍 Monterrey, Nuevo León, México · Spanish (native), English (intermediate)
 
 <br>
 
@@ -58,7 +59,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **[XCF 2026](https://www.xcf.com.mx/)** ⭐ | Corporate site with an **agentic AI assistant** that navigates the page and operates components (shipment tracking, quotes) on the user's behalf. Live map, i18n, dark mode. | `Next.js` `TypeScript` `.NET 10` `SQL Server` `n8n` |
+| **[XCF 2026](https://www.xcf.com.mx/)** ⭐ | Corporate site I built for XCF with an **agentic AI assistant** that navigates the page and operates components (shipment tracking, quotes) on the user's behalf. Live map, i18n, dark mode. | `Next.js` `TypeScript` `.NET 10` `SQL Server` `n8n` |
 | **[HeyTwin](https://github.com/leonardos4enz/Datathon-2026-Specters)** | Digital twin of 15,025 bank customers — HDBSCAN finds 6 real segments, Random Forest + Optuna predicts profiles in <50 ms, an LLM agent answers with live generative charts. **Top 10 of 60+ teams**, Datathon DSC 2026. | `Python` `FastAPI` `pgvector` `LangChain` `AWS` |
 | **A.E.R.I.S.** | AI agent predicting air quality in real time from NASA TEMPO satellite data, with voice alerts for at-risk people. **🏆 MLH: Best Use of ElevenLabs**, NASA Space Apps 2025. | `Python` `AWS Lambda` `DynamoDB` `ML` `ElevenLabs` |
 | **[XSLAYCC ERP](https://www.xcf.com.mx/xslaycc)** | Full ERP: purchasing, inventory & fleet management. 3-tier architecture (WEB / API / CLASSES) with AES-encrypted transport. Led the dev team with SCRUM. | `.NET 8` `C#` `SQL Server` `Azure DevOps` `IIS` |
@@ -82,7 +83,7 @@
     </td>
     <td align="center" width="50%">
       <a href="https://www.xcf.com.mx/xslaycc"><img src="assets/img/xslaycc.jpg" alt="XSLAYCC ERP" width="100%"></a>
-      <sub><b>XSLAYCC</b> — ERP running XCF's daily operations</sub>
+      <sub><b>XSLAYCC</b> — ERP for XCF's daily operations</sub>
     </td>
   </tr>
 </table>
@@ -92,12 +93,28 @@
 
 ## `$ open leonardosaenz.com.mx`
 
-My portfolio is a product in itself: a neo-brutalist site with an **AI mode** — an agentic assistant (n8n + RAG on pgvector) that answers questions about me, navigates the site for you, and can even email me from the chat.
+My portfolio is a product in itself, rebuilt from scratch in 2026 with two modes:
+
+- **`/` — the agent.** The homepage is a terminal where you talk to a real AI agent that speaks as me. A side inspector animates the agent's flow and shows **live telemetry from the stream** (time to first token, NDJSON events, speed, tool used) — nothing simulated. When it mentions a project it draws annotated callouts over the screenshots, and it can **take control of the portfolio computer-use style**: opens it, scrolls, moves a cursor and highlights the section, handing control back the moment you touch the page. Voice input included.
+- **`/portafolio` — the classic.** An editorial portfolio: full-width type, B/W photo, project index with cursor-following previews, timeline, skills and hackathons.
+
+Under the hood: **ASP.NET Core 10 MVC** with a rate-limited streaming proxy → **n8n** AI Agent on **MiniMax M2.7** → memory in Postgres + **RAG on pgvector** (OpenAI embeddings) and a contact tool that emails me through Gmail. Zero external NuGet dependencies.
 
 <div align="center">
-<a href="https://leonardosaenz.com.mx/portafolio"><img src="assets/img/site-portafolio.jpg" alt="leonardosaenz.com.mx — portfolio" width="880"></a>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <a href="https://leonardosaenz.com.mx/"><img src="assets/img/site-terminal.png" alt="leonardosaenz.com.mx — AI agent terminal with live stream inspector" width="100%"></a>
+      <sub><b>/</b> — terminal + agent inspector</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://leonardosaenz.com.mx/portafolio"><img src="assets/img/site-normal.png" alt="leonardosaenz.com.mx/portafolio — editorial portfolio" width="100%"></a>
+      <sub><b>/portafolio</b> — editorial mode</sub>
+    </td>
+  </tr>
+</table>
 
-<sub>👆 Click to visit — or try the <a href="https://leonardosaenz.com.mx/">AI mode</a> and talk to my digital twin</sub>
+<sub>👆 Click to visit — ask the agent <i>"¿por qué debería contratarte?"</i> and watch it work</sub>
 
 <br><br>
 
