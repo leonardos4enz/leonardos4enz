@@ -1,0 +1,26 @@
+name: Inhabited contribution graph
+
+on:
+  schedule: # 06:00 UTC daily
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: regenerate assets/agents/graph-*.svg
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node .github/agents/graph.mjs leonardos4enz
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/agents/graph-*.svg
+          git commit -m "chore: regenerate inhabited contribution graph" || echo "no changes"
+          git push

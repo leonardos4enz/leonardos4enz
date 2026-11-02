@@ -1,8 +1,8 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img src="assets/hero-light.svg" alt="Leonardo Sáenz — Full Stack Developer · AI Engineer" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/hero-dark.svg">
+  <img src="assets/agents/hero-light.svg" alt="Leonardo Sáenz — Full Stack · AI Engineer. Animation: Claude Code reads the codebase, plans, spawns subagents, writes and tests code, uses MCP and a browser, and hands work to an agent harness running several projects in parallel" width="880">
 </picture>
 
 <picture>
@@ -23,6 +23,11 @@
 
 ## `$ whoami`
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/whoami-dark.svg">
+  <img src="assets/agents/whoami-light.svg" alt="Clawd from my claude-pet mod typing while a speech bubble shows what Claude Code is doing" width="880">
+</picture>
+
 **Full Stack Developer & AI Engineer** — Computer Science graduate (UANL FCFM). I build software and AI agents that reach production: corporate web platforms, a full ERP, and agents that don't just chat — they **operate the UI, call real tools, and stream their work live**.
 
 - 🟢 **Now:** available for new opportunities — full stack, AI agents, or both
@@ -31,7 +36,10 @@
 - 🏆 **MLH prize winner** at NASA International Space Apps Challenge 2025
 - 📍 Monterrey, Nuevo León, México · Spanish (native), English (intermediate)
 
-<br>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/divider-dark.svg">
+  <img src="assets/agents/divider-light.svg" alt="" width="880">
+</picture>
 
 ## `$ ls ~/hackathons`
 
@@ -47,6 +55,11 @@
 ## `$ cat ~/stack`
 
 <div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/stack-dark.svg">
+  <img src="assets/agents/stack-light.svg" alt="Stack blocks falling into three piles: build and ship (.NET, C#, Next.js, SQL Server, Docker, AWS), AI and data (Python, n8n, LangChain, pgvector, PostgreSQL, Ollama) and AI dev tools (Claude Code, Cursor, OpenCode, MiniMax, Windsurf, Antigravity, Gemini CLI)" width="880">
+</picture>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
   <img src="assets/stack-light.svg" alt="Tech stack: .NET, C#, Next.js, React, TypeScript, Python, FastAPI, n8n, LangChain, OpenAI, Claude, Gemini, Ollama, ElevenLabs, scikit-learn, SQL Server, PostgreSQL, MySQL, AWS, Docker, Git, Azure DevOps" width="880">
@@ -144,8 +157,8 @@ Under the hood: **ASP.NET Core 10 MVC** with a rate-limited streaming proxy → 
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=leonardos4enz&bg_color=00000000&hide_border=true&color=8A8A8A&line=FFFFFF&point=FFFFFF&area=true&area_color=FFFFFF">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=leonardos4enz&bg_color=00000000&hide_border=true&color=555555&line=000000&point=000000&area=true&area_color=000000" alt="Contribution activity graph" width="880">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/graph-dark.svg">
+  <img src="assets/agents/graph-light.svg" alt="My contribution graph for the last year, with agents and Clawds walking across it (rebuilt nightly)" width="880">
 </picture>
 
 <picture>
