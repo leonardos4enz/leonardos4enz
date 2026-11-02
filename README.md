@@ -1,21 +1,16 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/hero-dark.svg">
-  <img src="assets/agents/hero-light.svg" alt="Leonardo Sáenz — Full Stack · AI Engineer. Animation: Claude Code reads the codebase, plans, spawns subagents, writes and tests code, uses MCP and a browser, and hands work to an agent harness running several projects in parallel" width="880">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=900&color=FFFFFF&center=true&vCenter=true&width=720&lines=Building+AI+agents+that+actually+ship+to+production;ERP+systems+%C2%B7+Agentic+web+apps+%C2%B7+ML+pipelines;.NET+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+n8n+%C2%B7+LangChain+%C2%B7+AWS;Monterrey%2C+M%C3%A9xico+%F0%9F%87%B2%F0%9F%87%BD">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2600&pause=900&color=000000&center=true&vCenter=true&width=720&lines=Building+AI+agents+that+actually+ship+to+production;ERP+systems+%C2%B7+Agentic+web+apps+%C2%B7+ML+pipelines;.NET+%C2%B7+Next.js+%C2%B7+Python+%C2%B7+n8n+%C2%B7+LangChain+%C2%B7+AWS;Monterrey%2C+M%C3%A9xico+%F0%9F%87%B2%F0%9F%87%BD" alt="typing intro">
-</picture>
-
-<br>
-
 <a href="https://leonardosaenz.com.mx/portafolio"><img src="https://img.shields.io/badge/Portfolio_Web-000000?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio Web"></a>
 <a href="https://www.linkedin.com/in/leonardos4enz/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="mailto:leonardorsaenz@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 <img src="https://hits.sh/github.com/leonardos4enz.svg?style=for-the-badge&label=PROFILE%20VIEWS&color=000000&labelColor=555555" alt="profile views">
+
+<br><br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/hero-dark.svg">
+  <img src="assets/agents/hero-light.svg" alt="Leonardo Sáenz — Full Stack · AI Engineer. Animation: Claude Code reads the codebase, plans, spawns subagents, writes and tests code, uses MCP and a browser, and hands work to an agent harness running several projects in parallel" width="880">
+</picture>
 
 </div>
 
@@ -57,18 +52,18 @@
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/agents/stack-dark.svg">
-  <img src="assets/agents/stack-light.svg" alt="Stack blocks falling into three piles: build and ship (.NET, C#, Next.js, SQL Server, Docker, AWS), AI and data (Python, n8n, LangChain, pgvector, PostgreSQL, Ollama) and AI dev tools (Claude Code, Cursor, OpenCode, MiniMax, Windsurf, Antigravity, Gemini CLI)" width="880">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img src="assets/stack-light.svg" alt="Tech stack: .NET, C#, Next.js, React, TypeScript, Python, FastAPI, n8n, LangChain, OpenAI, Claude, Gemini, Ollama, ElevenLabs, scikit-learn, SQL Server, PostgreSQL, MySQL, AWS, Docker, Git, Azure DevOps" width="880">
+  <img src="assets/agents/stack-light.svg" alt="Tech stack falling into four piles. Build: .NET, C#, Next.js, React, TypeScript, SQL Server, Azure DevOps. Cloud and data: Docker, AWS, PostgreSQL, MySQL, pgvector, FastAPI, Git. AI: Python, n8n, LangChain, OpenAI, ElevenLabs, scikit-learn, Ollama. AI dev tools: Claude Code, Cursor, OpenCode, MiniMax, Windsurf, Antigravity, Gemini CLI" width="880">
 </picture>
 </div>
 
 <br>
 
 ## `$ ls ~/featured-builds`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/projects-dark.svg">
+  <img src="assets/agents/projects-light.svg" alt="A small Clawd flies from project to project: XCF 2026 in production, HeyTwin Top 10 at Datathon, A.E.R.I.S. MLH prize, XSLAYCC in production" width="880">
+</picture>
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -105,6 +100,11 @@
 <br>
 
 ## `$ open leonardosaenz.com.mx`
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/agents/portfolio-dark.svg">
+  <img src="assets/agents/portfolio-light.svg" alt="A visitor asks why should I hire you, and the agent on my site takes the wheel: scrolls the portfolio, moves the cursor and highlights a section" width="880">
+</picture>
 
 My portfolio is a product in itself, rebuilt from scratch in 2026 with two modes:
 
@@ -143,15 +143,6 @@ Under the hood: **ASP.NET Core 10 MVC** with a rate-limited streaming proxy → 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=8A8A8A&icon_color=FFFFFF&ring_color=FFFFFF&rank_icon=github">
-  <img src="https://github-readme-stats.vercel.app/api?username=leonardos4enz&show_icons=true&theme=transparent&hide_border=true&title_color=000000&text_color=555555&icon_color=000000&ring_color=000000&rank_icon=github" alt="GitHub stats" height="170">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&theme=transparent&hide_border=true&title_color=FFFFFF&text_color=8A8A8A&langs_count=8">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leonardos4enz&layout=compact&theme=transparent&hide_border=true&title_color=000000&text_color=555555&langs_count=8" alt="Top languages" height="170">
-</picture>
-
-<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=leonardos4enz&hide_border=true&background=00000000&ring=FFFFFF&fire=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=8A8A8A&sideLabels=8A8A8A&dates=555555&stroke=8A8A8A">
   <img src="https://streak-stats.demolab.com?user=leonardos4enz&hide_border=true&background=FFFFFF00&ring=000000&fire=000000&currStreakNum=000000&sideNums=000000&currStreakLabel=555555&sideLabels=555555&dates=8A8A8A&stroke=555555" alt="GitHub streak" height="170">
 </picture>
@@ -164,11 +155,6 @@ Under the hood: **ASP.NET Core 10 MVC** with a rate-limited streaming proxy → 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
   <img src="profile-3d-contrib/profile-green.svg" alt="3D contribution graph" width="880">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/leonardos4enz/leonardos4enz/output/github-snake-dark.svg">
-  <img src="https://raw.githubusercontent.com/leonardos4enz/leonardos4enz/output/github-snake.svg" alt="Contribution snake" width="880">
 </picture>
 
 </div>
