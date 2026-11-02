@@ -149,7 +149,7 @@ Under the hood: **ASP.NET Core 10 MVC** with a rate-limited streaming proxy → 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/agents/graph-dark.svg">
-  <img src="assets/agents/graph-light.svg" alt="My contribution graph for the last year, with agents and Clawds walking across it (rebuilt nightly)" width="880">
+  <img src="assets/agents/graph-light.svg" alt="Clawd plays snake on my contribution graph: it eats every active day of the last year and grows a tail of subagents (rebuilt nightly)" width="880">
 </picture>
 
 <picture>
