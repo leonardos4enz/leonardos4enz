@@ -137,6 +137,82 @@ const GAZE = {
 }
 const CLOSED = new Set(['libre', 'pr'])
 
+/* Formas de cuerpo de bloub (skins.ts / shape.ts): perfiles radiales r(θ) de 64 muestras. */
+const NS = 64, TAU = Math.PI * 2
+const ANG = Array.from({ length: NS }, (_, i) => (i / NS) * TAU)
+const COS = ANG.map(Math.cos), SIN = ANG.map(Math.sin)
+const normalizeR = (radii, max = 1) => { const k = max / Math.max(...radii); return radii.map((r) => r * k) }
+function profileFromPolygon(poly, cx, cy) {
+  return ANG.map((_, k) => {
+    const dx = COS[k], dy = SIN[k]; let best = 0
+    for (let i = 0; i < poly.length; i++) {
+      const a = poly[i], b = poly[(i + 1) % poly.length], ex = b.x - a.x, ey = b.y - a.y, den = dx * ey - dy * ex
+      if (Math.abs(den) < 1e-9) continue
+      const px = a.x - cx, py = a.y - cy, t = (px * ey - py * ex) / den, u = (px * dy - py * dx) / den
+      if (t > best && u >= 0 && u <= 1) best = t
+    }
+    return best
+  })
+}
+function hullOfCircles(x1, y1, r1, x2, y2, r2v, steps = 96) {
+  const dx = x2 - x1, dy = y2 - y1, dist = Math.hypot(dx, dy) || 1e-6
+  const base = Math.atan2(dy, dx), spread = Math.acos(Math.max(-1, Math.min(1, (r1 - r2v) / dist))), pts = []
+  for (let i = 0; i <= steps / 2; i++) { const a = base + spread + ((TAU - 2 * spread) * i) / (steps / 2); pts.push({ x: x1 + Math.cos(a) * r1, y: y1 + Math.sin(a) * r1 }) }
+  for (let i = 0; i <= steps / 2; i++) { const a = base - spread + (2 * spread * i) / (steps / 2); pts.push({ x: x2 + Math.cos(a) * r2v, y: y2 + Math.sin(a) * r2v }) }
+  return pts
+}
+const superellipseProfile = (n) => ANG.map((_, i) => (Math.abs(COS[i]) ** n + Math.abs(SIN[i]) ** n) ** (-1 / n))
+function unionOfCirclesProfile(circles) {
+  return ANG.map((_, i) => {
+    let best = 0
+    for (const c of circles) {
+      const b = COS[i] * c.x + SIN[i] * c.y, disc = b * b - (c.x * c.x + c.y * c.y - c.r * c.r)
+      if (disc >= 0) best = Math.max(best, b + Math.sqrt(disc))
+    }
+    return best
+  })
+}
+function roundedPolygon(verts, rc, arcSteps = 10) {
+  const n = verts.length, out = []
+  const normal = (a, b) => { const dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1; return Math.atan2(-dx / len, dy / len) }
+  for (let i = 0; i < n; i++) {
+    const prev = verts[(i - 1 + n) % n], cur = verts[i], next = verts[(i + 1) % n]
+    const a0 = normal(prev, cur); let d = normal(cur, next) - a0
+    while (d > Math.PI) d -= TAU; while (d < -Math.PI) d += TAU
+    for (let k = 0; k <= arcSteps; k++) { const a = a0 + (d * k) / arcSteps; out.push({ x: cur.x + Math.cos(a) * rc, y: cur.y + Math.sin(a) * rc }) }
+  }
+  return out
+}
+function regularPolygonProfile(sides, radius, rc, rotationDeg = 0) {
+  const rot = (rotationDeg * Math.PI) / 180
+  const verts = Array.from({ length: sides }, (_, i) => { const a = rot + (i / sides) * TAU; return { x: Math.cos(a) * (radius - rc), y: Math.sin(a) * (radius - rc) } })
+  return profileFromPolygon(roundedPolygon(verts, rc), 0, 0)
+}
+export const SHAPES = {
+  cercle: new Array(NS).fill(1),
+  galet: normalizeR(ANG.map((a) => 1 + 0.075 * Math.cos(2 * a + 0.5) + 0.035 * Math.cos(3 * a + 2.1)), 1.02),
+  squircle: normalizeR(superellipseProfile(4.2), 1.15),
+  capsule: profileFromPolygon(hullOfCircles(-0.42, 0, 0.62, 0.42, 0, 0.62), 0, 0),
+  triangle: regularPolygonProfile(3, 1.12, 0.34, -90),
+  hexagone: regularPolygonProfile(6, 1.04, 0.26, 0),
+  nuage: normalizeR(unionOfCirclesProfile([{ x: -0.44, y: 0.2, r: 0.54 }, { x: 0.46, y: 0.2, r: 0.5 }, { x: 0.02, y: 0.3, r: 0.6 }, { x: -0.24, y: -0.3, r: 0.48 }, { x: 0.3, y: -0.24, r: 0.44 }]), 1.02),
+  goutte: normalizeR(profileFromPolygon(hullOfCircles(0, 0.28, 0.66, 0, -0.96, 0.05), 0, 0), 1.04),
+}
+function radiusAtAngle(radii, angle) {
+  const t = ((((angle / TAU) % 1) + 1) % 1) * NS, i = Math.floor(t)
+  return radii[i % NS] + (radii[(i + 1) % NS] - radii[i % NS]) * (t - i)
+}
+/** Contorno del cuerpo: 64 puntos del perfil unidos con cúbicas Catmull-Rom, como closedPath de bloub. */
+function bodyPath(radii, R, CX, CY) {
+  const p = radii.map((r, i) => [r * COS[i] * R + CX, r * SIN[i] * R + CY]), n = p.length, k = 1 / 6
+  let d = `M${f(p[0][0])} ${f(p[0][1])}`
+  for (let i = 0; i < n; i++) {
+    const p0 = p[(i - 1 + n) % n], p1 = p[i], p2 = p[(i + 1) % n], p3 = p[(i + 2) % n]
+    d += `C${f(p1[0] + (p2[0] - p0[0]) * k)} ${f(p1[1] + (p2[1] - p0[1]) * k)} ${f(p2[0] - (p3[0] - p1[0]) * k)} ${f(p2[1] - (p3[1] - p1[1]) * k)} ${f(p2[0])} ${f(p2[1])}`
+  }
+  return d + 'Z'
+}
+
 const dg = (d) => (d * Math.PI) / 180
 function spin3(u, v, a) {
   const c = Math.cos(a), s = Math.sin(a)
@@ -164,13 +240,14 @@ function capsulePts(w, h) {
   return pts
 }
 /** Path de los dos ojos (en la caja de 100 del agente) para una cara, desvío de mirada y párpado. */
-function eyesPath(face, dyaw, dpitch, lid, R, CX, CY) {
+function eyesPath(face, dyaw, dpitch, lid, R, CX, CY, radii) {
   const g = { yaw: face.gaze.yaw + dyaw, pitch: face.gaze.pitch + dpitch, roll: face.gaze.roll }
   return eyePoses(g, face.split).map((e, i) => {
     const cfg = face.eyes[i], phi = dg(cfg.tilt || 0), cp = Math.cos(phi), sp = Math.sin(phi)
     const ax = e.a * cp + e.c * sp, ay = e.b * cp + e.d * sp, cx2 = -e.a * sp + e.c * cp, cy2 = -e.b * sp + e.d * cp
     const k = 0.06 + 0.94 * clamp(Math.min(lid, cfg.open), 0, 1)
-    const tx = e.x * R + CX, ty = e.y * R + CY
+    const fit = radii ? radiusAtAngle(radii, Math.atan2(e.y, e.x)) : 1
+    const tx = e.x * fit * R + CX, ty = e.y * fit * R + CY
     return 'M' + capsulePts(cfg.w * R, cfg.h * R).map(([px, py]) =>
       `${(ax * px + cx2 * py + tx).toFixed(1)} ${((ay * px + cy2 * py) * k + ty).toFixed(1)}`).join('L') + 'Z'
   }).join('')
@@ -180,12 +257,13 @@ function eyesPath(face, dyaw, dpitch, lid, R, CX, CY) {
  * Un agente de la flota con la cara de bloub. (x, y) = centro del piso. script = [[estado, segundos], ...] (un ciclo).
  * En 'pr' brinca. Los cambios de expresión se esconden detrás de un parpadeo, como en bloub.
  */
-export function agent(x, y, size, color, script, { begin = 0, flip = false, acc = true } = {}) {
+export function agent(x, y, size, color, script, { begin = 0, flip = false, acc = true, shape = 'cercle' } = {}) {
+  const radii = SHAPES[shape] || SHAPES.cercle
   if (typeof script === 'string') script = [[script, 10]]
   const T = script.reduce((a, s) => a + s[1], 0)
   let t = 0
   const parts = script.map(([st, d]) => { const w = { st, t0: t, t1: t + d }; t += d; return w })
-  const k = size / 100, R = 46, CX = 50, CY = 52
+  const k = size / 100, R = 46 / Math.max(1, ...radii), CX = 50, CY = 52
   // saltos en las ventanas 'pr' (y 'atencion' más bajitos)
   const hopFr = [['0 0', 0]], sqFr = [['1 1', 0]]
   for (const p of parts) {
@@ -230,7 +308,7 @@ export function agent(x, y, size, color, script, { begin = 0, flip = false, acc 
   }
   if (fr[fr.length - 1][0] < T) fr.push([T, fr[0][1], fr[0][2], fr[0][3], fr[0][4]])
   else fr[fr.length - 1] = [T, fr[0][1], fr[0][2], fr[0][3], fr[0][4]]
-  const ds = fr.map(([, face, dy, dp, lid]) => eyesPath(face, dy, dp, lid, R, CX, CY))
+  const ds = fr.map(([, face, dy, dp, lid]) => eyesPath(face, dy, dp, lid, R, CX, CY, shape === 'cercle' ? null : radii))
   const eyesEl = `<path d="${ds[0]}" fill="#fff"><animate attributeName="d" values="${ds.join(';')}" keyTimes="${fr.map((q) => f(q[0] / T)).join(';')}" ` +
     `calcMode="spline" keySplines="${fr.slice(1).map(() => OUT).join(';')}" dur="${f(T)}s"${begin ? ` begin="${f(begin)}s"` : ''} repeatCount="indefinite"/></path>`
 
@@ -238,7 +316,7 @@ export function agent(x, y, size, color, script, { begin = 0, flip = false, acc 
   return `<g transform="translate(${f(x - size / 2)} ${f(y - size)}) scale(${f(k)})${flip ? ' translate(100 0) scale(-1 1)' : ''}">` +
     `<ellipse cx="50" cy="100" rx="30" ry="4.5" fill="#000" opacity=".2"/>` +
     `<g>${hop}<g transform="translate(50 98)"><g>${sq}<g transform="translate(-50 -98)"><g>${shake}` +
-    `<circle cx="${CX}" cy="${CY}" r="${R}" fill="${color}"/>${eyesEl}</g></g></g></g></g>` +
+    (shape === 'cercle' ? `<circle cx="${CX}" cy="${CY}" r="${R}" fill="${color}"/>` : `<path d="${bodyPath(radii, R, CX, CY)}" fill="${color}"/>`) + `${eyesEl}</g></g></g></g></g>` +
     `<g transform="translate(88 -24)">${accs}</g></g>`
 }
 
