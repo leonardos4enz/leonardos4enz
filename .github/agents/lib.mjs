@@ -100,62 +100,92 @@ export const CSS = `
 export const DEFS = `<linearGradient id="agHl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <linearGradient id="agSh" x1="0" y1="0" x2="0" y2="1"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>`
 
-const SQ = 'M50 3C84 3 97 16 97 50C97 84 84 97 50 97C16 97 3 84 3 50C3 16 16 3 50 3Z'
-const HAPPY = 'M-7.5 3Q-6.6 -5.2 0 -5.2Q6.6 -5.2 7.5 3'
-const SLEEP = 'M-7.5 -1Q-6 3.6 0 3.6Q6 3.6 7.5 -1'
-const SADL = 'M-7 3Q0 -2 7 3'
+/* ---------- Cara estilo bloub (github.com/jeremy-prt/bloub, MIT) ----------
+   Círculo perfecto con dos ojos-cápsula pintados sobre una esfera: cada ojo toma el repere
+   tangente de la esfera proyectado en ortográfico, por eso el ojo exterior sale más angosto.
+   Las constantes son las medidas de bloub (face.ts / expressions.ts), no se redondean. */
+const EYE_SPLIT = 15.46, EYE_W = 0.186, EYE_H = 0.412
+const clamp = (v, a, b) => (v < a ? a : v > b ? b : v)
+const REST = { yaw: 28.49, pitch: 28.62, roll: -13 }
+const ex = (w, h, tilt = 0, open = 1) => ({ w, h, tilt, open })
+const pairE = (w, h, tilt = 0, open = 1) => [ex(w, h, tilt, open), ex(w, h, -tilt, open)]
+// expresión de bloub para cada estado de la flota
+const FACE = {
+  libre: { gaze: { yaw: 6, pitch: -9, roll: -3 }, split: 16, eyes: pairE(0.2, 0.42, 0, 0.1) },          // somnolent, cerrado
+  iniciando: { gaze: REST, split: EYE_SPLIT, eyes: [ex(EYE_W, EYE_H), ex(EYE_W, EYE_H)] },               // neutre
+  planificando: { gaze: { yaw: 16, pitch: 12, roll: -15 }, split: 16.5, eyes: [ex(0.24, 0.46, -8), ex(0.2, 0.38, -8)] }, // curieux, mira arriba
+  programando: { gaze: { yaw: 4, pitch: -8, roll: -4 }, split: 16, eyes: pairE(0.21, 0.4) },            // attentif, mira abajo
+  verificando: { gaze: { yaw: 22, pitch: 20, roll: -6 }, split: 16, eyes: pairE(0.21, 0.44) },          // attentif, mira el matraz
+  review: { gaze: { yaw: 12, pitch: 4, roll: -6 }, split: 16, eyes: [ex(0.21, 0.4), ex(0.22, 0.15)] },  // mefiant
+  pr: { gaze: { yaw: 4, pitch: 14, roll: 0 }, split: 18, eyes: pairE(0.34, 0.13, 20) },                 // hilare
+  sync: { gaze: REST, split: EYE_SPLIT, eyes: [ex(EYE_W, EYE_H), ex(EYE_W, EYE_H)] },
+  conflicto: { gaze: { yaw: 2, pitch: -6, roll: 0 }, split: 20.5, eyes: pairE(0.4, 0.6) },               // effraye
+  arreglo: { gaze: { yaw: -10, pitch: -8, roll: 0 }, split: 17, eyes: pairE(0.3, 0.2, 22) },            // concentrado
+  atencion: { gaze: { yaw: 6, pitch: -4, roll: 0 }, split: 19.5, eyes: pairE(0.4, 0.56, -10) },          // excite
+  fallo: { gaze: { yaw: 3, pitch: -13, roll: 0 }, split: 16, eyes: pairE(0.22, 0.4, -28) },             // triste
+}
+// mirada por estado: desvíos [yaw, pitch, espera s] alrededor de la expresión
+const GAZE = {
+  programando: [[-14, 0, 0.3], [-5, 0, 0.25], [4, 0, 0.25], [13, 0, 0.45], [-14, -2, 0.3], [-4, -2, 0.25], [6, -2, 0.5]],
+  review: [[-16, 0, 0.5], [-6, 0, 0.4], [6, 0, 0.4], [16, 0, 0.6]],
+  conflicto: [[-16, 0, 0.35], [16, 0, 0.35]],
+  sync: [[10, 0, 0.3], [0, 8, 0.3], [-10, 0, 0.3], [0, -8, 0.3]],
+  planificando: [[0, 0, 0.9], [8, 4, 0.8], [-6, 6, 1]],
+  verificando: [[0, 0, 1.1], [3, 2, 0.9]],
+  arreglo: [[0, 0, 0.8], [-4, 2, 0.6], [3, -1, 0.9]],
+  default: [[0, 0, 1.6], [6, -3, 1.2], [-5, 3, 1.4], [8, 4, 0.9], [-7, -2, 1.1]],
+}
+const CLOSED = new Set(['libre', 'pr'])
 
-// Mirada por estado: secuencia de puntos [x, y, espera s] (unidades del ojo).
-function gazeFor(state) {
-  switch (state) {
-    case 'programando': { const s = []; for (let l = 0; l < 3; l++) for (let i = 0; i < 4; i++) s.push([-6 + i * 4, 3 + l * 0.8, i === 3 ? 0.35 : 0.16]); return s }
-    case 'verificando': return [[6, -4, 1.1], [5, -3.4, 0.9], [6.5, -4.4, 1.2]]
-    case 'planificando': return [[3, -4.5, 0.9], [6, -2.5, 0.8], [0, -5, 1], [4, -3, 0.7]]
-    case 'arreglo': return [[-4, 4, 0.8], [-5, 3.4, 0.6], [-3, 4.4, 0.9]]
-    case 'conflicto': return [[-7, 0, 0.5], [7, 0, 0.5]]
-    case 'atencion': return [[0, 0, 2]]
-    case 'fallo': return [[0, 4, 2]]
-    default: return [[0, 0, 1.6], [4, -1, 1.2], [-3, 1, 1.4], [5, 2, 0.9], [0, 0, 1.2], [-5, -1, 1.1]]
+const dg = (d) => (d * Math.PI) / 180
+function spin3(u, v, a) {
+  const c = Math.cos(a), s = Math.sin(a)
+  return [[u[0] * c + v[0] * s, u[1] * c + v[1] * s, u[2] * c + v[2] * s], [v[0] * c - u[0] * s, v[1] * c - u[1] * s, v[2] * c - u[2] * s]]
+}
+function eyePoses(g, split) {
+  let fw = [0, 0, 1], right = [1, 0, 0], down = [0, 1, 0]
+  ;[fw, right] = spin3(fw, right, dg(g.yaw))
+  ;[down, fw] = spin3(down, fw, dg(g.pitch))
+  ;[right, down] = spin3(right, down, dg(g.roll))
+  return [-1, 1].map((side) => {
+    const [ef, er] = spin3(fw, right, dg(split * side))
+    return { x: ef[0], y: ef[1], a: er[0], b: er[1], c: down[0], d: down[1], depth: ef[2] }
+  })
+}
+// contorno de la cápsula: rectángulo de esquinas redondas con 4 puntos por esquina (16 en total),
+// siempre la misma cantidad para que SMIL pueda transformar un path en otro
+function capsulePts(w, h) {
+  const hw = Math.max(w, 0.01) / 2, hh = Math.max(h, 0.01) / 2, r = Math.min(hw, hh), pts = []
+  const corners = [[hw - r, -hh + r, -90], [hw - r, hh - r, 0], [-hw + r, hh - r, 90], [-hw + r, -hh + r, 180]]
+  for (const [cx, cy, a0] of corners) for (let i = 0; i < 4; i++) {
+    const a = dg(a0 + (i * 90) / 3)
+    pts.push([cx + r * Math.cos(a), cy + r * Math.sin(a)])
   }
+  return pts
 }
-const EYE_SCALE = { programando: [0.84, 0.8], verificando: [0.8, 0.8], review: [1.18, 0.6], planificando: [0.94, 0.94], atencion: [1.17, 1.17], fallo: [0.96, 0.8], arreglo: [0.88, 0.86] }
-
-function gazeAnim(state) {
-  if (state === 'review') return loop('translate', ['-7 1', '7 1', '-7 1'], 2.8)
-  if (state === 'sync') return loop('translate', ['6 0', '0 4', '-6 0', '0 -4', '6 0'], 2.4, { curve: '0 0 1 1' })
-  const pts = gazeFor(state)
-  if (pts.length === 1) return ''
-  const fr = []; let t = 0
-  for (const [x, y, w] of pts) { fr.push([`${x} ${y}`, t]); t += 0.09; fr.push([`${x} ${y}`, t]); t += w }
-  fr.push([`${pts[0][0]} ${pts[0][1]}`, t])
-  // de cada punto al siguiente: sacádico rápido (OUT) y luego quieto
-  return at('translate', fr.map(([v, tt], i) => [v, tt]), t, { curves: fr.slice(0, -1).map((_, i) => (i % 2 ? OUT : '0 0 1 1')) })
-}
-
-function eyes(state, color) {
-  if (state === 'libre') return [-1, 1].map((s) => `<path d="${SLEEP}" transform="translate(${50 + s * 16} 56)" fill="none" stroke="#fff" stroke-width="4.8" stroke-linecap="round"/>`).join('')
-  if (state === 'pr') return [-1, 1].map((s) => `<path d="${HAPPY}" transform="translate(${50 + s * 16} 50)" fill="none" stroke="#fff" stroke-width="5.8" stroke-linecap="round"/>`).join('') +
-    `<ellipse cx="22" cy="68" rx="8" ry="4.5" fill="#ffd2dc" opacity=".45"/><ellipse cx="78" cy="68" rx="8" ry="4.5" fill="#ffd2dc" opacity=".45"/>`
-  const [sx, sy] = EYE_SCALE[state] || [1, 1]
-  const dy = state === 'fallo' ? 3.5 : state === 'programando' ? 1 : 0
-  const blinkDur = rnd(3.6, 5.6), blinkBegin = -rnd(0, 4)
-  const pill = (s) => `<g transform="translate(${50 + s * 16} ${52 + dy}) scale(${sx} ${sy})"><g>` +
-    `<animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 .1;1 1" keyTimes="0;.93;.96;1" dur="${f(blinkDur)}s" begin="${f(blinkBegin)}s" repeatCount="indefinite"/>` +
-    `<rect x="-8" y="-15" width="16" height="30" rx="8" fill="#fff"/><circle cx="-2.8" cy="-8.4" r="2.5" fill="${color}" opacity=".42"/></g></g>`
-  const lid = state === 'fallo' ? [-1, 1].map((s) => `<path d="M${50 + s * 16 - 10} ${40 + (s < 0 ? 4 : 0)}L${50 + s * 16 + 10} ${40 + (s < 0 ? 0 : 4)}L${50 + s * 16 + 10} 30L${50 + s * 16 - 10} 30Z" fill="${color}"/>`).join('') : ''
-  return `<g>${gazeAnim(state)}${pill(-1)}${pill(1)}${lid}</g>`
+/** Path de los dos ojos (en la caja de 100 del agente) para una cara, desvío de mirada y párpado. */
+function eyesPath(face, dyaw, dpitch, lid, R, CX, CY) {
+  const g = { yaw: face.gaze.yaw + dyaw, pitch: face.gaze.pitch + dpitch, roll: face.gaze.roll }
+  return eyePoses(g, face.split).map((e, i) => {
+    const cfg = face.eyes[i], phi = dg(cfg.tilt || 0), cp = Math.cos(phi), sp = Math.sin(phi)
+    const ax = e.a * cp + e.c * sp, ay = e.b * cp + e.d * sp, cx2 = -e.a * sp + e.c * cp, cy2 = -e.b * sp + e.d * cp
+    const k = 0.06 + 0.94 * clamp(Math.min(lid, cfg.open), 0, 1)
+    const tx = e.x * R + CX, ty = e.y * R + CY
+    return 'M' + capsulePts(cfg.w * R, cfg.h * R).map(([px, py]) =>
+      `${(ax * px + cx2 * py + tx).toFixed(1)} ${((ay * px + cy2 * py) * k + ty).toFixed(1)}`).join('L') + 'Z'
+  }).join('')
 }
 
 /**
- * Un agente de la flota. (x, y) = centro del piso. script = [[estado, segundos], ...] (un ciclo).
- * hops: para 'pr' brinca solo. tag: id en la frente.
+ * Un agente de la flota con la cara de bloub. (x, y) = centro del piso. script = [[estado, segundos], ...] (un ciclo).
+ * En 'pr' brinca. Los cambios de expresión se esconden detrás de un parpadeo, como en bloub.
  */
-export function agent(x, y, size, color, script, { tag = '', begin = 0, flip = false, acc = true } = {}) {
+export function agent(x, y, size, color, script, { begin = 0, flip = false, acc = true } = {}) {
   if (typeof script === 'string') script = [[script, 10]]
   const T = script.reduce((a, s) => a + s[1], 0)
   let t = 0
   const parts = script.map(([st, d]) => { const w = { st, t0: t, t1: t + d }; t += d; return w })
-  const k = size / 100
+  const k = size / 100, R = 46, CX = 50, CY = 52
   // saltos en las ventanas 'pr' (y 'atencion' más bajitos)
   const hopFr = [['0 0', 0]], sqFr = [['1 1', 0]]
   for (const p of parts) {
@@ -170,18 +200,45 @@ export function agent(x, y, size, color, script, { tag = '', begin = 0, flip = f
   const hopC = hopFr.slice(0, -1).map((_, i) => [OUT, OUT, IN, BOUNCE, '0 0 1 1'][(i + 4) % 5])
   const hop = hopFr.length > 2 ? at('translate', hopFr, T, { curves: hopC, begin }) : ''
   const sq = hopFr.length > 2 ? at('scale', sqFr, T, { curves: hopC, begin }) : ''
-  const breath = loop('scale', ['1 1', '1.015 .985', '1 1'], rnd(2.4, 3.4), { begin: -rnd(0, 2) })
-  // conflicto: tiembla
   const shake = parts.some((p) => p.st === 'conflicto') ? loop('translate', ['-1 0', '1.2 0', '-0.8 0', '1 0', '-1 0'], 0.5) : ''
 
-  const faces = parts.map((p) => `<g>${windowed(p.t0, p.t1, T, begin)}${eyes(p.st, color)}</g>`).join('')
+  // fotogramas de los ojos: [t, cara, dyaw, dpitch, párpado]
+  const fr = []
+  const push = (tt, face, dy, dp, lid) => { if (!fr.length || tt > fr[fr.length - 1][0] + 0.001) fr.push([tt, face, dy, dp, lid]) }
+  for (const p of parts) {
+    const face = FACE[p.st] || FACE.iniciando, prev = fr.length ? fr[fr.length - 1] : null
+    // el cambio de cara se esconde detrás de un parpadeo forzado
+    if (prev) { push(p.t0, prev[1], prev[2], prev[3], 1); push(p.t0 + 0.09, prev[1], prev[2], prev[3], 0) }
+    const pat = GAZE[p.st] || GAZE.default
+    let tt = p.t0 + (prev ? 0.2 : 0), i = 0, nextBlink = tt + rnd(1.5, 3.5)
+    push(tt, face, pat[0][0], pat[0][1], 1)
+    while (tt < p.t1 - 0.05) {
+      const [dy, dp, hold] = pat[i % pat.length]
+      const end = Math.min(p.t1 - 0.02, tt + hold)
+      // parpadeo de reposo (no en las caras que ya van cerradas)
+      if (!CLOSED.has(p.st) && nextBlink > tt && nextBlink + 0.2 < end) {
+        push(nextBlink, face, dy, dp, 1); push(nextBlink + 0.08, face, dy, dp, 0); push(nextBlink + 0.18, face, dy, dp, 1)
+        nextBlink += rnd(2, 4.6)
+      }
+      push(end, face, dy, dp, 1)
+      i++
+      if (end >= p.t1 - 0.03) break
+      const [ny, np] = pat[i % pat.length]
+      tt = Math.min(p.t1 - 0.02, end + 0.1)
+      push(tt, face, ny, np, 1)   // sacádico: llega rápido y se queda
+    }
+  }
+  if (fr[fr.length - 1][0] < T) fr.push([T, fr[0][1], fr[0][2], fr[0][3], fr[0][4]])
+  else fr[fr.length - 1] = [T, fr[0][1], fr[0][2], fr[0][3], fr[0][4]]
+  const ds = fr.map(([, face, dy, dp, lid]) => eyesPath(face, dy, dp, lid, R, CX, CY))
+  const eyesEl = `<path d="${ds[0]}" fill="#fff"><animate attributeName="d" values="${ds.join(';')}" keyTimes="${fr.map((q) => f(q[0] / T)).join(';')}" ` +
+    `calcMode="spline" keySplines="${fr.slice(1).map(() => OUT).join(';')}" dur="${f(T)}s"${begin ? ` begin="${f(begin)}s"` : ''} repeatCount="indefinite"/></path>`
+
   const accs = acc ? parts.map((p) => `<g class="acc" style="--fc:${STATE_C[p.st] || SC.work}">${windowed(p.t0, p.t1, T, begin)}${ACC[p.st] || ''}</g>`).join('') : ''
-  const tagEl = tag ? `<text x="50" y="25" text-anchor="middle" font-family="${MONO}" font-size="9" font-weight="600" fill="#fff" opacity=".55" letter-spacing=".8">${tag}</text>` : ''
   return `<g transform="translate(${f(x - size / 2)} ${f(y - size)}) scale(${f(k)})${flip ? ' translate(100 0) scale(-1 1)' : ''}">` +
-    `<ellipse cx="50" cy="100" rx="32" ry="4.5" fill="#000" opacity=".2"/>` +
-    `<g>${hop}<g transform="translate(50 97)"><g>${sq}<g>${breath}<g transform="translate(-50 -97)"><g>${shake}` +
-    `<path d="${SQ}" fill="${color}"/><path d="${SQ}" fill="url(#agSh)"/><path d="${SQ}" fill="url(#agHl)"/>` +
-    `<ellipse cx="40" cy="14" rx="15" ry="3.6" fill="#fff" opacity=".12"/>${tagEl}${faces}</g></g></g></g></g></g>` +
+    `<ellipse cx="50" cy="100" rx="30" ry="4.5" fill="#000" opacity=".2"/>` +
+    `<g>${hop}<g transform="translate(50 98)"><g>${sq}<g transform="translate(-50 -98)"><g>${shake}` +
+    `<circle cx="${CX}" cy="${CY}" r="${R}" fill="${color}"/>${eyesEl}</g></g></g></g></g>` +
     `<g transform="translate(88 -24)">${accs}</g></g>`
 }
 
