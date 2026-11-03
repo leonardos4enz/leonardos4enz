@@ -100,7 +100,7 @@ export const CSS = `
 export const DEFS = `<linearGradient id="agHl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".26"/><stop offset=".46" stop-color="#fff" stop-opacity="0"/></linearGradient>
 <linearGradient id="agSh" x1="0" y1="0" x2="0" y2="1"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".14"/></linearGradient>`
 
-/* ---------- Cara estilo bloub (github.com/jeremy-prt/bloub, MIT) ----------
+/* ---------- Cara estilo bloub: github.com/jeremy-prt/bloub, MIT License, Copyright (c) 2026 Jérémy Perret ----------
    Círculo perfecto con dos ojos-cápsula pintados sobre una esfera: cada ojo toma el repere
    tangente de la esfera proyectado en ortográfico, por eso el ojo exterior sale más angosto.
    Las constantes son las medidas de bloub (face.ts / expressions.ts), no se redondean. */
